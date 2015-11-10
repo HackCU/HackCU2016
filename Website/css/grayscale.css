@@ -31,6 +31,7 @@ h6 {
 }
 
 p {
+	font-family: Montserrat;
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -372,7 +373,7 @@ footer {
 footer p {
     margin: 0;
     font-size: 15px;
-    font-family: Arial, "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Montserrat;
 }
 
 .footer-section {
