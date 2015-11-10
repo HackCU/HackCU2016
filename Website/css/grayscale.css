@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Arial,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
     background-color: #fff;
 }
@@ -25,8 +25,8 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Arial, Montserrat, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
 }
 
@@ -156,6 +156,14 @@ a:focus {
     -o-background-size: cover;
 }
 
+.leftFloat {
+    float: left;
+}
+
+.rightFloat {
+    float: right;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -166,7 +174,7 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 @media(min-width:768px) {
@@ -351,7 +359,7 @@ footer {
 footer p {
     margin: 0;
     font-size: 15px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Arial, "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .footer-section {
