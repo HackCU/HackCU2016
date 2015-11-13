@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 8px 0;
     text-transform: uppercase;
     font-family: Lato, Arial, Montserrat, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
@@ -31,7 +31,7 @@ h6 {
 }
 
 p {
-    font-family: Montserrat;
+    font-family: Lota;
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -363,12 +363,25 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 10px 0 0 0;
+    padding: 0px 0 0 0;
     width: 100%;
     color: #000;
 }
 
-
+.footer-mini {
+    font-size: 14px;
+    background-color: #000;
+    color: #C0C0C0;
+    height: 30px;
+    padding: 5px;
+    font-family: Arial;
+    width: 100%;
+    margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 
 .footer-section {
@@ -384,6 +397,18 @@ footer {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E0E0E0;
+    font-family: Lota;
+    font-size: 18px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #00e5e6;
 }
 
 #map {
