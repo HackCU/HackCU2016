@@ -31,7 +31,7 @@ h6 {
 }
 
 p {
-	font-family: Montserrat;
+    font-family: Montserrat;
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -46,7 +46,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #0a5996;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -55,7 +55,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #0a5996;
 }
 
 .light {
@@ -327,17 +327,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #0a5996;
+    color: #0a5996;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #0a5996;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #0a5996;
 }
 
 ul.banner-social-buttons {
@@ -366,22 +366,20 @@ footer {
     padding: 10px 0 0 0;
     width: 100%;
     color: #000;
-    background-color: #fff; 
 }
 
-footer p {
-    margin: 0;
-    font-size: 15px;
-    font-family: Montserrat;
-}
+
+
 
 .footer-section {
+    font-family: Lota;
     width: 100%;
-    padding: 10px;
+    padding: 100px;
     margin: 0;
+    font-size: 15px;
     color: #fff;
     //background: url(../img/flatirons.png) no-repeat center center scroll;
-    background-color: #000;
+    background-color: #202020 ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -391,7 +389,7 @@ footer p {
 #map {
     width: 100%;
     margin-top: 100px;
-   // -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 ::-moz-selection {
