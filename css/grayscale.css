@@ -23,15 +23,15 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
-    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    //text-transform: uppercase;
     font-family: Lato, Arial, Montserrat, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 p {
-	font-family: Montserrat;
+    font-family: Lato;
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -46,16 +46,17 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #0a5996;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    font-weight: 200;
 }
 
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #0a5996;
 }
 
 .light {
@@ -268,14 +269,14 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding: 50px 0 50px 0;
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     color: #fff;
-    background: url(../img/hack.jpg) no-repeat center center scroll;
+    //background: url(../img/hack.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -326,17 +327,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #0a5996;
+    color: #0a5996;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #0a5996;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #0a5996;
 }
 
 ul.banner-social-buttons {
@@ -362,35 +363,58 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 10px 0 0 0;
+    padding: 0px 0 0 0;
     width: 100%;
     color: #000;
-    background-color: #fff; 
 }
 
-footer p {
-    margin: 0;
-    font-size: 15px;
-    font-family: Montserrat;
-}
-
-.footer-section {
+.footer-mini {
+    font-size: 14px;
+    background-color: #1a1a1a;
+    color: #666666;
+    height: 30px;
+    padding: 5px;
+    font-family: Arial;
     width: 100%;
-    padding: 10px;
     margin: 0;
-    color: #fff;
-    //background: url(../img/flatirons.png) no-repeat center center scroll;
-    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+
+.footer-section {
+    font-family: Arial;
+    width: 100%;
+    padding: 40px;
+    margin: 0;
+    font-size: 15px;
+    color: #d9d9d9;
+    //background: url(../img/flatirons.png) no-repeat center center scroll;
+    background-color: #262626;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d9d9d9;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #00e5e6;
+}
+
 #map {
     width: 100%;
     margin-top: 100px;
-   // -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
 }
 
 ::-moz-selection {
