@@ -67,12 +67,12 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Josefin Sans',"Helvetica Neue",Arial,sans-serif;
     background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -272,7 +272,7 @@ a:focus {
     padding: 50px 0 0 0;
 }
 
-.download-section {
+.application-section {
     width: 100%;
     padding: 50px 0 0 0;
     color: #fff;
@@ -287,9 +287,31 @@ a:focus {
 .schedule-section {
     width: 100%;
     padding: 50px 0;
+    color: #000;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.sponsor-section {
+    width: 100%;
+    padding: 50px 0;
     color: #fff;
-    background: url(../img/hack2.jpg) no-repeat center center scroll;
     background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.faq-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #000;
+    //background: url(../img/hack2.jpg) no-repeat center center scroll;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -306,7 +328,7 @@ a:focus {
     .content-section {
     }
 
-    .download-section {
+    .application-section, .sponsor-section, .schedule-section {
         padding: 100px 0;
     }
 
