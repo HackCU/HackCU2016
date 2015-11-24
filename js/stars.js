@@ -5,7 +5,7 @@
  */
 
 
-var limit=100, // Max number of starts
+var limit=40, // Max number of starts
 container=document.getElementById('test');
 loop={
 	//initilizing
