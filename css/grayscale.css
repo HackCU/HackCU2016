@@ -283,11 +283,11 @@ a:focus {
 
 .application-section {
     width: 100%;
-    height: 400px;
-    padding: 100px 0 1000px 0;
+    height: 600px;
+    padding: 50px 0 100px 0;
     color: #fff;
-    background: url(../img/applySection.png) no-repeat top center scroll;
-    background-color: #656565;
+    background: url(../img/flatirons.png) no-repeat top center scroll;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -298,6 +298,18 @@ a:focus {
     width: 100%;
     padding: 0;
     color: #000;
+    display: inline-block;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.schedule-sectionPic {
+    width: 100%;
+    padding: 0;
+    color: #000;
+    background: url(../img/scheduleSect.png) no-repeat center center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -311,19 +323,23 @@ a:focus {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     padding: 10px;
+    color: #e3e3e3;
     margin: 0;
-    font-size: 18px;
+    font-size: 22px;
+    padding-left: 50px;
 }
 
 .schedule-section h3 {
-    padding-left: 65px;
+    padding-left: 50px;
+    font-size: 26px;
+    color: #e3e3e3;
 }
 
 .sponsor-section {
     width: 100%;
     padding: 50px 0;
     color: #000;
-    background-color: #204d74;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -352,7 +368,7 @@ a:focus {
     .content-section {
     }
 
-    .application-section, .sponsor-section, .schedule-section {
+    .application-section, .sponsor-section {
         padding: 70px 0;
     }
 
@@ -606,4 +622,12 @@ body {
 	50%  { -moz-transform: scale(1.0); opacity: 1; }
 	75%  { -moz-transform: scale(0.5); opacity: 0; }
 	100% { -moz-transform: scale(1.0); opacity: 1; }
+}
+
+hr {
+    height: 4px;
+    width: 680px;
+    border: 0;
+    //box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
