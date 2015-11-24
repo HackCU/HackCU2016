@@ -150,9 +150,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    //background: url(../img/flatirons.png) no-repeat bottom center scroll;
-    background: url(../img/flatirons.png) no-repeat top center scroll;
-    background-color: #000;
+    //background: url(../img/flatirons.png) no-repeat top center scroll;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -313,8 +312,8 @@ a:focus {
 .sponsor-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #204d74;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -408,8 +407,8 @@ footer {
 .footer-mini {
     font-size: 16px;
     background-color: #3f3f3f;
-    color: #5e5e5e;
-    height: 30px;
+    color: #000;
+    height: 35px;
     padding: 5px;
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
@@ -424,9 +423,9 @@ footer {
 .footer-section {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     color: #e3e3e3;
     //background: url(../img/flatirons.png) no-repeat center center scroll;
    // background-color: #262626;
@@ -439,14 +438,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #e3e3e3;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-}
-
-.footer-mini a {
-    text-decoration: none;
-    color: #5e5e5e;
+    color: #000;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
 }
@@ -511,4 +503,97 @@ body {
 .bounce { 
     -webkit-animation-name: bounce; 
     animation-name: bounce; 
+}
+
+
+
+
+
+//
+// Star animation: http://jsfiddle.net/H29j7/6/
+//
+
+#test{
+    height:200px;
+    width: 100%;
+    overflow:hidden;
+    background: #212121;
+    position:relative;
+}
+
+/*simple reset*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	       -box-sizing: border-box;
+}
+
+.star {
+	display: block;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 24px;
+	height: 24px;
+	background: #F6F6F6;
+	overflow: hidden;
+	z-index: 2;
+	animation: glitter 4.5s linear 0s infinite normal;
+	-webkit-animation: glitter 4.5s linear 0s infinite normal;
+	-moz-animation: glitter 4.5s linear 0s infinite normal;
+	-ms-animation: glitter 4.5s linear 0s infinite normal;
+	-o-animation: glitter 4.5s linear 0s infinite normal;
+}
+.star-top,.star-bottom{
+	position: relative;
+	display: block;
+}
+.star-top:before , 
+.star-top:after ,
+.star-bottom:before ,
+.star-bottom:after{
+	content: "";
+	width: 24px;
+	height: 24px;
+	background: #212121;
+	border-radius: 25%;
+	position: absolute;
+}
+/*CSS3 pseudo class for positioning curves*/
+.star-top:before {
+	top: -12px;
+	left: -12px;
+}
+.star-top:after {
+	bottom: -12px;
+	left: 12px;
+}
+.star-bottom:before {
+	top: 12px;
+	left: -12px;
+}
+.star-bottom:after {
+	top: 12px;
+	left: 12px;
+}
+/*css3 keyframes for glittering effect*/
+@-webkit-keyframes glitter {
+	0%   { -webkit-transform: scale(1.0); opacity: 1; }
+	25%  { -webkit-transform: scale(0.5); opacity: 0; }
+	50%  { -webkit-transform: scale(1.0); opacity: 1; }
+	75%  { -webkit-transform: scale(0.5); opacity: 0; }
+	100% { -webkit-transform: scale(1.0); opacity: 1; }
+}
+@-moz-keyframes glitter {
+	0%   { -moz-transform: scale(1.0); opacity: 1; }
+	25%  { -moz-transform: scale(0.5); opacity: 0; }
+	50%  { -moz-transform: scale(1.0); opacity: 1; }
+	75%  { -moz-transform: scale(0.5); opacity: 0; }
+	100% { -moz-transform: scale(1.0); opacity: 1; }
 }
