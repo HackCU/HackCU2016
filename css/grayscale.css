@@ -294,6 +294,11 @@ a:focus {
     -o-background-size: cover;
 }
 
+.application-section h2 {
+    color: #e3e3e3;
+    font-size: 35px;
+}
+
 .schedule-section {
     width: 100%;
     padding: 0;
@@ -307,9 +312,9 @@ a:focus {
 
 .schedule-sectionPic {
     width: 100%;
-    padding: 0;
+    padding-top: 100px;
     color: #000;
-    background: url(../img/scheduleSect.png) no-repeat center center scroll;
+    background: url(../img/sunsetCity.png) no-repeat center center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -389,8 +394,8 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #00e5e6;
-    color: #00e5e6;
+    border: 2px solid #4f6499;
+    color: #4f6499;
     background-color: transparent;
 }
 
