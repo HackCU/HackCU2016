@@ -6,7 +6,7 @@
 
 
 var limit=40, // Max number of starts
-container=document.getElementById('test');
+container=document.getElementById('star');
 loop={
 	//initilizing
 	start:function(){
