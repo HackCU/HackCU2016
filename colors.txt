@@ -1,6 +1,6 @@
-e9be00
-ffd100
-0a5996
-5e5e5e
-3f3f3f
-e3e3e3
+#e9be00 - yellow
+#ffd100 - yellow
+#0a5996 - blue
+#5e5e5e - light grey
+#3f3f3f - darker light grey
+#e3e3e3 - white

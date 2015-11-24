@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lato, Arial, "Helvetica Neue",Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Lato, Arial, "Helvetica Neue",Helvetica, sans-serif;
     color: #000;
     background-color: #fff;
 }
@@ -25,15 +25,16 @@ h5,
 h6 {
     margin: 0 0 8px 0;
     //text-transform: uppercase;
-    font-family: Lato, Arial, Montserrat, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Lato, Arial, Montserrat, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
+    color: #4f6499;
 }
 
 p {
-    font-family: Lato;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -56,7 +57,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #0a5996;
+    color: #00e5e6;
 }
 
 .light {
@@ -67,12 +68,12 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Josefin Sans',"Helvetica Neue",Arial,sans-serif;
     background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -149,9 +150,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    //background: url(../img/flatirons.png) no-repeat bottom center scroll;
-    background: url(../img/flatirons.png) no-repeat top center scroll;
-    background-color: #000;
+    //background: url(../img/flatirons.png) no-repeat top center scroll;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -269,27 +269,95 @@ a:focus {
 }
 
 .content-section {
-    padding: 50px 0 50px 0;
+    padding: 200px 0 100px 0;
+    width: 100%;
+    height: 600px;
+    background: url(../img/aboutSection.png) no-repeat bottom center scroll;
+    background-color: #212121;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #e3e3e3;
 }
 
-.download-section {
+.application-section {
     width: 100%;
-    padding: 50px 0 0 0;
+    height: 600px;
+    padding: 50px 0 100px 0;
     color: #fff;
-    //background: url(../img/hack.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background: url(../img/flatirons.png) no-repeat top center scroll;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.application-section h2 {
+    color: #e3e3e3;
+    font-size: 35px;
+}
+
 .schedule-section {
     width: 100%;
+    padding: 0;
+    color: #000;
+    display: inline-block;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.schedule-sectionPic {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 800px;
+    color: #000;
+    background: url(../img/sunsetCity.png) no-repeat bottom center;
+    background-color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.schedule-section li{
+    list-style: none;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    padding: 10px;
+    color: #e3e3e3;
+    margin: 0;
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+.schedule-section h3 {
+    padding-left: 50px;
+    font-size: 26px;
+    color: #e3e3e3;
+}
+
+.sponsor-section {
+    width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/hack2.jpg) no-repeat center center scroll;
-    background-color: #000;
+    color: #000;
+    background-color: #212121;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.faq-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #000;
+    //background: url(../img/hack2.jpg) no-repeat center center scroll;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -306,8 +374,8 @@ a:focus {
     .content-section {
     }
 
-    .download-section {
-        padding: 100px 0;
+    .application-section, .sponsor-section {
+        padding: 70px 0;
     }
 
     #map {
@@ -317,7 +385,7 @@ a:focus {
 }
 
 .btn {
-    border-radius: 0;
+    /*border-radius: 0;*/
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -327,17 +395,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #0a5996;
-    color: #0a5996;
+    border: 2px solid #4f6499;
+    color: #4f6499;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #0a5996;
+    border: 1px solid #00e5e6;
     outline: 0;
     color: #000;
-    background-color: #0a5996;
+    background-color: #00e5e6;
 }
 
 ul.banner-social-buttons {
@@ -369,12 +437,12 @@ footer {
 }
 
 .footer-mini {
-    font-size: 14px;
-    background-color: #1a1a1a;
-    color: #666666;
-    height: 30px;
+    font-size: 16px;
+    background-color: #3f3f3f;
+    color: #000;
+    height: 35px;
     padding: 5px;
-    font-family: Arial;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     margin: 0;
     -webkit-background-size: cover;
@@ -385,14 +453,15 @@ footer {
 
 
 .footer-section {
-    font-family: Arial;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    padding: 40px;
+    padding: 15px;
     margin: 0;
-    font-size: 15px;
-    color: #d9d9d9;
+    font-size: 20px;
+    color: #e3e3e3;
     //background: url(../img/flatirons.png) no-repeat center center scroll;
-    background-color: #262626;
+   // background-color: #262626;
+    background-color: #5e5e5e;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -401,8 +470,8 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #d9d9d9;
-    font-family: Arial;
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -439,4 +508,132 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+
+.animated { 
+    -webkit-animation-duration: 5s; 
+    animation-duration: 5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in; 
+    animation-timing-function: ease-in; 
+} 
+
+@-webkit-keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+    40% {-webkit-transform: translateY(-30px);} 
+    60% {-webkit-transform: translateY(-15px);} 
+} 
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+} 
+
+.bounce { 
+    -webkit-animation-name: bounce; 
+    animation-name: bounce; 
+}
+
+
+
+
+
+//
+// Star animation: http://jsfiddle.net/H29j7/6/
+//
+
+#test{
+    height:200px;
+    width: 100%;
+    overflow:hidden;
+    background: #212121;
+    position:relative;
+}
+
+/*simple reset*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	       -box-sizing: border-box;
+}
+
+.star {
+	display: block;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 24px;
+	height: 24px;
+	background: #F6F6F6;
+	overflow: hidden;
+	z-index: 2;
+	animation: glitter 4.5s linear 0s infinite normal;
+	-webkit-animation: glitter 4.5s linear 0s infinite normal;
+	-moz-animation: glitter 4.5s linear 0s infinite normal;
+	-ms-animation: glitter 4.5s linear 0s infinite normal;
+	-o-animation: glitter 4.5s linear 0s infinite normal;
+}
+.star-top,.star-bottom{
+	position: relative;
+	display: block;
+}
+.star-top:before , 
+.star-top:after ,
+.star-bottom:before ,
+.star-bottom:after{
+	content: "";
+	width: 24px;
+	height: 24px;
+	background: #212121;
+	border-radius: 25%;
+	position: absolute;
+}
+/*CSS3 pseudo class for positioning curves*/
+.star-top:before {
+	top: -12px;
+	left: -12px;
+}
+.star-top:after {
+	bottom: -12px;
+	left: 12px;
+}
+.star-bottom:before {
+	top: 12px;
+	left: -12px;
+}
+.star-bottom:after {
+	top: 12px;
+	left: 12px;
+}
+/*css3 keyframes for glittering effect*/
+@-webkit-keyframes glitter {
+	0%   { -webkit-transform: scale(1.0); opacity: 1; }
+	25%  { -webkit-transform: scale(0.5); opacity: 0; }
+	50%  { -webkit-transform: scale(1.0); opacity: 1; }
+	75%  { -webkit-transform: scale(0.5); opacity: 0; }
+	100% { -webkit-transform: scale(1.0); opacity: 1; }
+}
+@-moz-keyframes glitter {
+	0%   { -moz-transform: scale(1.0); opacity: 1; }
+	25%  { -moz-transform: scale(0.5); opacity: 0; }
+	50%  { -moz-transform: scale(1.0); opacity: 1; }
+	75%  { -moz-transform: scale(0.5); opacity: 0; }
+	100% { -moz-transform: scale(1.0); opacity: 1; }
+}
+
+hr {
+    height: 4px;
+    width: 680px;
+    border: 0;
+    //box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
