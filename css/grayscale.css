@@ -313,8 +313,9 @@ a:focus {
 .schedule-sectionPic {
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 800px;
     color: #000;
-    background: url(../img/sunsetCity.png) no-repeat center center scroll;
+    background: url(../img/sunsetCity.png) no-repeat bottom center;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
