@@ -269,9 +269,10 @@ a:focus {
 }
 
 .content-section {
-    padding: 100px 0 100px 0;
+    padding: 200px 0 100px 0;
     width: 100%;
-    background: url(../img/aboutSection.png) no-repeat top center scroll;
+    height: 600px;
+    background: url(../img/aboutSection.png) no-repeat bottom center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
