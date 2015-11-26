@@ -301,16 +301,18 @@ a:focus {
 
 .schedule-section {
     width: 100%;
-    padding: 0;
+    padding-top: 300px;
+    padding-bottom: 150px;
     color: #000;
     display: inline-block;
+    background: url(../img/sunsetCity.png) no-repeat bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.schedule-sectionPic {
+/*.schedule-sectionPic {
     width: 100%;
     padding-top: 100px;
     padding-bottom: 800px;
@@ -321,7 +323,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
+}*/
 
 .schedule-section li{
     list-style: none;
@@ -343,8 +345,9 @@ a:focus {
 
 .sponsor-section {
     width: 100%;
-    //padding: 50px 0;
     color: #e3e3e3;
+    padding-top: 200px;
+    padding-bottom: 100px;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -360,14 +363,18 @@ a:focus {
 }
 .faq-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #000;
-    //background: url(../img/hack2.jpg) no-repeat center center scroll;
-    background-color: #fff;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.faq-section h2{
+    color: #ffd100;
+    font-size: 26px;
 }
 
 #map {
@@ -445,8 +452,8 @@ footer {
 
 .footer-mini {
     font-size: 16px;
-    background-color: #3f3f3f;
-    color: #000;
+    background-color: #212121;
+    color: #e3e3e3;
     height: 35px;
     padding: 5px;
     font-family: 'Josefin Sans', sans-serif;
@@ -462,7 +469,7 @@ footer {
 .footer-section {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin: 0;
     font-size: 20px;
     color: #e3e3e3;
@@ -477,14 +484,14 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #000;
+    color: #e3e3e3;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: #00e5e6;
+    color: #e9be00;
 }
 
 #map {
@@ -601,7 +608,7 @@ body {
 	width: 24px;
 	height: 24px;
 	background: #212121;
-	border-radius: 25%;
+	border-radius: 20%;
 	position: absolute;
 }
 /*CSS3 pseudo class for positioning curves*/
