@@ -29,13 +29,13 @@ h6 {
     font-weight: 500;
     letter-spacing: 1px;
     color: #4f6499;
+    font-size: 28px;
 }
 
 p {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 0 25px;
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 28px;
 }
 
 @media(min-width:768px) {
@@ -281,6 +281,10 @@ a:focus {
     color: #e3e3e3;
 }
 
+.content-section p {
+    font-size: 26px;
+}
+
 .application-section {
     width: 100%;
     height: 600px;
@@ -296,8 +300,8 @@ a:focus {
 }
 
 .application-section h2 {
-    color: #e3e3e3;
-    font-size: 35px;
+    color: #ffd100;
+    font-size: 26px;
 }
 
 .schedule-section {
@@ -313,19 +317,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-/*.schedule-sectionPic {
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 800px;
-    color: #000;
-    background: url(../img/sunsetCity.png) no-repeat bottom center;
-    background-color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}*/
-
 .schedule-section li{
     list-style: none;
     display: inline-block;
@@ -334,7 +325,7 @@ a:focus {
     padding: 10px;
     color: #e3e3e3;
     margin: 0;
-    font-size: 22px;
+    font-size: 26px;
     padding-left: 50px;
 }
 
@@ -358,24 +349,35 @@ a:focus {
 
 .sponsor-section h3 {
     padding-bottom: 20px;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
     color: #ffd100;   
 }
+
 .faq-section {
     width: 100%;
     padding: 100px 0;
-    color: #fff;
+    color: #cccccc;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
 }
 
-.faq-section h2{
+.faq-section h2 {
     color: #ffd100;
-    font-size: 26px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.faq-section p {
+    font-size: 22px;
+}
+
+.faq-section a {
+    font-size: 22px;
 }
 
 #map {
