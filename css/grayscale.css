@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: 'Josefin Sans', Lato, Arial, "Helvetica Neue",Helvetica, sans-serif;
     color: #000;
-    background-color: #fff;
+    background-color: #000;
 }
 
 html {
@@ -24,23 +24,21 @@ h4,
 h5,
 h6 {
     margin: 0 0 8px 0;
-    //text-transform: uppercase;
-    font-family: 'Josefin Sans', Lato, Arial, Montserrat, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Arial, sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #4f6499;
+    color: #ffd100;
     font-size: 28px;
 }
 
 p {
     font-family: 'Josefin Sans', sans-serif;
-    margin: 0 0 25px;
+    margin: 0;
     font-size: 28px;
 }
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -150,7 +148,6 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    //background: url(../img/flatirons.png) no-repeat top center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -213,7 +210,8 @@ a:focus {
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    background: rgba(255,255,255,.1);
+    background-color: #0a5996;
+    //background: rgba(255,255,255,.1);
 }
 
 .btn-circle i.animated {
@@ -367,11 +365,12 @@ a:focus {
 }
 
 .faq-section h2 {
-    color: #ffd100;
-    font-size: 28px;
     text-align: center;
 }
 
+.faq-section h3 {
+    color: #0a5996;
+}
 .faq-section p {
     font-size: 22px;
 }
@@ -454,18 +453,13 @@ footer {
 }
 
 .footer-mini {
-    font-size: 16px;
-    background-color: #212121;
-    color: #e3e3e3;
+    font-size: 18px;
+    background-color: #000;
+    color: #e9be00;
     height: 35px;
     padding: 5px;
-    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     margin: 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 
@@ -474,11 +468,9 @@ footer {
     width: 100%;
     padding: 10px;
     margin: 0;
-    font-size: 20px;
+    font-size: 22px;
     color: #e3e3e3;
-    //background: url(../img/flatirons.png) no-repeat center center scroll;
-   // background-color: #262626;
-    background-color: #5e5e5e;
+    background-color: #0a5996;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -487,9 +479,9 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #e3e3e3;
+    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 footer a:hover {
