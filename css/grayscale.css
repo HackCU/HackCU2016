@@ -284,7 +284,8 @@ a:focus {
 .application-section {
     width: 100%;
     height: 600px;
-    padding: 50px 0 100px 0;
+    padding: 150px 0 100px 0;
+    padding-top: 1000px;
     color: #fff;
     background: url(../img/flatirons.png) no-repeat top center scroll;
     background-color: #212121;
