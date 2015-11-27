@@ -1,7 +1,7 @@
 
 
 var limit=50, // Max number of starts
-container=document.getElementById('star');
+container=document.getElementById('faq');
 loop={
 	//initilizing
 	start:function(){
@@ -23,7 +23,7 @@ loop={
 		var d = document.createElement('div');
 		d.innerHTML = '<figure class="star"><figure class="star-top"></figure><figure class="star-bottom"></figure></figure>';
  		return d.firstChild;
-	},
+	}
 };
 loop.start();
 
