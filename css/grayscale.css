@@ -267,10 +267,9 @@ a:focus {
 }
 
 .content-section {
-    padding: 200px 0 100px 0;
-    width: 100%;
-    height: 600px;
-    background: url(../img/aboutSection.png) no-repeat bottom center scroll;
+    padding-top: 100px;
+    height: auto;
+    background: url(../img/aboutSection.png) no-repeat center center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -291,7 +290,6 @@ faq h3{
     width: 100%;
     height: 600px;
     padding: 150px 0 100px 0;
-    padding-top: 1000px;
     color: #fff;
     background: url(../img/flatirons.png) no-repeat top center scroll;
     background-color: #212121;
@@ -321,7 +319,7 @@ date-section {
     padding-bottom: 150px;
     color: #000;
     display: inline-block;
-    background: url(../img/sunsetCity.png) no-repeat bottom center;
+    background: url(../img/sunsetCity.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -349,7 +347,7 @@ date-section {
 .sponsor-section {
     width: 100%;
     color: #e3e3e3;
-    //background-color: #212121;
+    background-color: #fff;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -481,7 +479,7 @@ footer {
 
 .footer-mini {
     font-size: 18px;
-    background-color: #212121;
+    background-color: #000;
     color: #0a5996;
     height: 35px;
     padding: 5px;
