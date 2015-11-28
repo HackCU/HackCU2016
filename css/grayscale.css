@@ -297,6 +297,14 @@ a:focus {
     -o-background-size: cover;
 }
 
+date-section {
+    background-color: #000;
+}
+
+date-section p {
+    color: #e3e3e3;
+}
+
 .application-section h2 {
     color: #ffd100;
     font-size: 26px;
