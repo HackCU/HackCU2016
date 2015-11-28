@@ -268,7 +268,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-    height: auto;
+    height: 600px;
     background: url(../img/aboutSection.png) no-repeat center center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
@@ -309,7 +309,7 @@ date-section {
 }
 
 .application-section h2 {
-    color: #ffd100;
+    color: #e3e3e3;
     font-size: 26px;
 }
 
@@ -346,8 +346,7 @@ date-section {
 
 .sponsor-section {
     width: 100%;
-    color: #e3e3e3;
-    background-color: #fff;
+    color: #fff;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
