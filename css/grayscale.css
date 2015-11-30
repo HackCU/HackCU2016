@@ -55,7 +55,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #00e5e6;
+    color: #ffd100;
 }
 
 .light {
@@ -315,11 +315,11 @@ date-section {
 
 .schedule-section {
     width: 100%;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 150px;
     color: #000;
     display: inline-block;
-    background: url(../img/sunsetCity.png) no-repeat center center scroll;
+    background: url(../img/cityFade.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
