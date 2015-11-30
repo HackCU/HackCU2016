@@ -267,6 +267,7 @@ a:focus {
 }
 
 .content-section {
+	margin-bottom: 100px;
     padding-top: 100px;
     height: 600px;
     background: url(../img/aboutSection.png) no-repeat center center scroll;
@@ -464,7 +465,7 @@ footer {
 .footer-section {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     margin: 0;
     font-size: 22px;
