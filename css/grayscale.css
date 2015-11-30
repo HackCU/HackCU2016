@@ -28,7 +28,6 @@ h6 {
     font-weight: 500;
     letter-spacing: 1px;
     color: #ffd100;
-    font-size: 28px;
 }
 
 p {
@@ -279,6 +278,11 @@ a:focus {
     color: #e3e3e3;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 .content-section p {
     font-size: 26px;
 }
@@ -316,6 +320,7 @@ date-section {
 
 .schedule-section {
     width: 100%;
+    height: 1500px;
     padding-top: 200px;
     padding-bottom: 150px;
     color: #000;
@@ -341,9 +346,12 @@ date-section {
 
 .schedule-section h3 {
     padding-left: 50px;
-    font-size: 26px;
-    color: #ffd100;   
+    font-size: 41px;
+    color: #ffd100;
+    text-align: center;
 }
+
+
 
 .sponsor-section {
     width: 100%;
@@ -357,7 +365,7 @@ date-section {
 
 .sponsor-section h3 {
     padding-bottom: 20px;
-    font-size: 28px;
+    font-size: 41px;
     text-align: center;
     color: #ffd100;   
 }
@@ -370,16 +378,17 @@ date-section {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-    
+    -o-background-size: cover; 
 }
 
 .faq-section h2 {
     text-align: center;
+    font-size: 41px;
 }
 
 .faq-section h3 {
     color: #0a5996;
+    //font-size: 41px;
 }
 .faq-section p {
     font-size: 22px;
