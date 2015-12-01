@@ -1,6 +1,6 @@
 
 
-var limit=50, // Max number of starts
+var limit=70, // Max number of starts
 container=document.getElementById('faq');
 loop={
 	//initilizing
