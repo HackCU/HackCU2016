@@ -657,7 +657,6 @@ hr {
     //background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-team-section pic {
-    padding-bottom: 500px;
-    margin: 100px;
+team-section h2 {
+    padding-top: 500px;
 }
