@@ -280,7 +280,6 @@ a:focus {
 
 img {
     width: 100%;
-    height: 100%;
 }
 
 .content-section p {
@@ -320,8 +319,8 @@ date-section {
 
 .schedule-section {
     width: 100%;
-    height: 1500px;
-    padding-top: 200px;
+    height: 1400px;
+    padding-top: 100px;
     padding-bottom: 150px;
     color: #000;
     display: inline-block;
@@ -346,7 +345,8 @@ date-section {
 
 .schedule-section h3 {
     padding-left: 50px;
-    font-size: 41px;
+	padding-bottom: 40px;
+    font-size: 57px;
     color: #ffd100;
     text-align: center;
 }
@@ -356,7 +356,7 @@ date-section {
 .sponsor-section {
     width: 100%;
     color: #fff;
-    background-color: #000;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -365,7 +365,7 @@ date-section {
 
 .sponsor-section h3 {
     padding-bottom: 20px;
-    font-size: 41px;
+    font-size: 57px;
     text-align: center;
     color: #ffd100;   
 }
@@ -383,7 +383,7 @@ date-section {
 
 .faq-section h2 {
     text-align: center;
-    font-size: 41px;
+    font-size: 57px;
 }
 
 .faq-section h3 {
@@ -430,6 +430,7 @@ date-section {
 }
 
 .btn-default {
+	margin-bottom: 60px;
     border: 2px solid #0a5996;
     color: #0a5996;
     background-color: transparent;
