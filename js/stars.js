@@ -1,7 +1,7 @@
 
 
 var limit=70, // Max number of stars
-container=document.getElementById('star');
+container = document.getElementById('star');
 loop={
 	//initilizing
 	start:function(){
@@ -25,6 +25,7 @@ loop={
 		d.innerHTML = '<figure class="star"><figure class="star-top"></figure><figure class="star-bottom"></figure></figure>';
  		return d.firstChild;
 	}
+        
 };
 loop.start();
 

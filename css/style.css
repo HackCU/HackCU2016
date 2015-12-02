@@ -269,7 +269,6 @@ a:focus {
     margin-bottom: 100px;
     padding-top: 100px;
     height: 600px;
-    //background: url(../img/aboutSection.png) no-repeat center center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -557,22 +556,9 @@ img::-moz-selection {
     60% {transform: translateY(-15px);} 
 } 
 
-.bounce { 
-    -webkit-animation-name: bounce; 
-    animation-name: bounce; 
-}
-
 //----------------------------------------------
 // Star animation: http://jsfiddle.net/H29j7/6/
 //----------------------------------------------
-
-#test{
-    height:200px;
-    width: 100%;
-    overflow:hidden;
-    background: #212121;
-    position:relative;
-}
 
 /*simple reset*/
 * {
@@ -607,6 +593,7 @@ img::-moz-selection {
 	position: relative;
 	display: block;
 }
+
 .star-top:before , 
 .star-top:after ,
 .star-bottom:before ,
@@ -618,6 +605,7 @@ img::-moz-selection {
 	border-radius: 20%;
 	position: absolute;
 }
+
 /*CSS3 pseudo class for positioning curves*/
 .star-top:before {
 	top: -12px;
@@ -657,7 +645,6 @@ hr {
     width: 680px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
-    //background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 .team-section h2 {
