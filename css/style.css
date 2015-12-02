@@ -562,9 +562,9 @@ img::-moz-selection {
     animation-name: bounce; 
 }
 
-//
+//----------------------------------------------
 // Star animation: http://jsfiddle.net/H29j7/6/
-//
+//----------------------------------------------
 
 #test{
     height:200px;
@@ -661,7 +661,7 @@ hr {
 }
 
 .team-section h2 {
-    padding-top: 500px;
+    padding-top: 400px;
     font-size: 57px;
 }
 
