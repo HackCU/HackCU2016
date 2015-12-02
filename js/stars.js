@@ -1,12 +1,7 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 
-var limit=40, // Max number of starts
-container=document.getElementById('test');
+var limit=70, // Max number of starts
+container=document.getElementById('star');
 loop={
 	//initilizing
 	start:function(){
@@ -28,7 +23,7 @@ loop={
 		var d = document.createElement('div');
 		d.innerHTML = '<figure class="star"><figure class="star-top"></figure><figure class="star-bottom"></figure></figure>';
  		return d.firstChild;
-	},
+	}
 };
 loop.start();
 

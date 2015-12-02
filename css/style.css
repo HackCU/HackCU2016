@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: 'Josefin Sans', Lato, Arial, "Helvetica Neue",Helvetica, sans-serif;
     color: #000;
-    background-color: #fff;
+    background-color: #212121;
 }
 
 html {
@@ -24,23 +24,20 @@ h4,
 h5,
 h6 {
     margin: 0 0 8px 0;
-    //text-transform: uppercase;
-    font-family: 'Josefin Sans', Lato, Arial, Montserrat, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Arial, sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #4f6499;
+    color: #ffd100;
 }
 
 p {
     font-family: 'Josefin Sans', sans-serif;
-    margin: 0 0 25px;
-    font-size: 20px;
-    line-height: 1.5;
+    margin: 0;
+    font-size: 28px;
 }
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -57,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #00e5e6;
+    color: #ffd100;
 }
 
 .light {
@@ -150,7 +147,6 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    //background: url(../img/flatirons.png) no-repeat top center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -213,7 +209,8 @@ a:focus {
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    background: rgba(255,255,255,.1);
+    background-color: #0a5996;
+    //background: rgba(255,255,255,.1);
 }
 
 .btn-circle i.animated {
@@ -269,10 +266,10 @@ a:focus {
 }
 
 .content-section {
-    padding: 200px 0 100px 0;
-    width: 100%;
+	margin-bottom: 100px;
+    padding-top: 100px;
     height: 600px;
-    background: url(../img/aboutSection.png) no-repeat bottom center scroll;
+    background: url(../img/aboutSection.png) no-repeat center center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -281,10 +278,22 @@ a:focus {
     color: #e3e3e3;
 }
 
+img {
+    width: 100%;
+}
+
+.content-section p {
+    font-size: 26px;
+}
+
+faq h3{
+    font-size: 26px;
+}
+
 .application-section {
     width: 100%;
     height: 600px;
-    padding: 50px 0 100px 0;
+    padding: 150px 0 100px 0;
     color: #fff;
     background: url(../img/flatirons.png) no-repeat top center scroll;
     background-color: #212121;
@@ -294,29 +303,28 @@ a:focus {
     -o-background-size: cover;
 }
 
+date-section {
+    background-color: #000;
+}
+
+.date-section p {
+    color: #e3e3e3;
+    font-size: 30px;
+}
+
 .application-section h2 {
     color: #e3e3e3;
-    font-size: 35px;
+    font-size: 26px;
 }
 
 .schedule-section {
     width: 100%;
-    padding: 0;
+    height: 1400px;
+    padding-top: 100px;
+    padding-bottom: 150px;
     color: #000;
     display: inline-block;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.schedule-sectionPic {
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 800px;
-    color: #000;
-    background: url(../img/sunsetCity.png) no-repeat bottom center;
-    background-color: #fff;
+    background: url(../img/cityFade.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -331,20 +339,23 @@ a:focus {
     padding: 10px;
     color: #e3e3e3;
     margin: 0;
-    font-size: 22px;
+    font-size: 26px;
     padding-left: 50px;
 }
 
 .schedule-section h3 {
     padding-left: 50px;
-    font-size: 26px;
-    color: #e3e3e3;
+	padding-bottom: 40px;
+    font-size: 57px;
+    color: #ffd100;
+    text-align: center;
 }
+
+
 
 .sponsor-section {
     width: 100%;
-    padding: 50px 0;
-    color: #000;
+    color: #fff;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -352,22 +363,46 @@ a:focus {
     -o-background-size: cover;
 }
 
+.sponsor-section h3 {
+    padding-bottom: 20px;
+    font-size: 57px;
+    text-align: center;
+    color: #ffd100;   
+}
+
 .faq-section {
     width: 100%;
-    padding: 50px 0;
-    color: #000;
-    //background: url(../img/hack2.jpg) no-repeat center center scroll;
-    background-color: #fff;
+    padding: 100px 0;
+    color: #cccccc;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; 
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 57px;
+}
+
+.faq-section h3 {
+    color: #0a5996;
+    //font-size: 41px;
+}
+.faq-section p {
+    font-size: 22px;
+}
+
+.faq-section a {
+    font-size: 22px;
 }
 
 #map {
     width: 100%;
     height: 20px;
     margin-top: 100px;
+    
 }
 
 @media(min-width:767px) {
@@ -395,17 +430,18 @@ a:focus {
 }
 
 .btn-default {
-    border: 2px solid #4f6499;
-    color: #4f6499;
+	margin-bottom: 60px;
+    border: 2px solid #0a5996;
+    color: #0a5996;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #00e5e6;
+    border: 2px solid #0a5996;
     outline: 0;
     color: #000;
-    background-color: #00e5e6;
+    background-color: #0a5996;
 }
 
 ul.banner-social-buttons {
@@ -431,53 +467,46 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 0px 0 0 0;
+    padding: 0;
     width: 100%;
     color: #000;
 }
-
-.footer-mini {
-    font-size: 16px;
-    background-color: #3f3f3f;
-    color: #000;
-    height: 35px;
-    padding: 5px;
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-    margin: 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 
 .footer-section {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     margin: 0;
-    font-size: 20px;
+    font-size: 22px;
     color: #e3e3e3;
-    //background: url(../img/flatirons.png) no-repeat center center scroll;
-   // background-color: #262626;
-    background-color: #5e5e5e;
+    background-color: #666666;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.footer-mini {
+    font-size: 18px;
+    background-color: #000;
+    color: #0a5996;
+    height: 35px;
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+}
+
 footer a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: #00e5e6;
+    color: #e9be00;
 }
 
 #map {
@@ -506,11 +535,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-
 .animated { 
     -webkit-animation-duration: 5s; 
     animation-duration: 5s; 
@@ -536,10 +560,6 @@ body {
     -webkit-animation-name: bounce; 
     animation-name: bounce; 
 }
-
-
-
-
 
 //
 // Star animation: http://jsfiddle.net/H29j7/6/
@@ -594,7 +614,7 @@ body {
 	width: 24px;
 	height: 24px;
 	background: #212121;
-	border-radius: 25%;
+	border-radius: 20%;
 	position: absolute;
 }
 /*CSS3 pseudo class for positioning curves*/
@@ -634,6 +654,15 @@ hr {
     height: 4px;
     width: 680px;
     border: 0;
-    //box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1);
+    //background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.team-section h2 {
+    padding-top: 500px;
+    font-size: 57px;
+}
+
+.team-section p {
+    color: #fff;
 }
