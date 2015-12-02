@@ -1,7 +1,7 @@
 
 
 var limit=70, // Max number of starts
-container=document.getElementById('faq');
+container=document.getElementById('star');
 loop={
 	//initilizing
 	start:function(){
