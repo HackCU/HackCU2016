@@ -1,6 +1,6 @@
 
 
-var limit=70, // Max number of starts
+var limit=70, // Max number of stars
 container=document.getElementById('star');
 loop={
 	//initilizing

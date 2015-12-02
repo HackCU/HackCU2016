@@ -266,7 +266,7 @@ a:focus {
 }
 
 .content-section {
-	margin-bottom: 100px;
+    margin-bottom: 100px;
     padding-top: 100px;
     height: 600px;
     background: url(../img/aboutSection.png) no-repeat center center scroll;
@@ -478,6 +478,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     margin: 0;
+    bottom: 0px;
     font-size: 22px;
     color: #e3e3e3;
     background-color: #666666;
@@ -634,6 +635,7 @@ img::-moz-selection {
 	top: 12px;
 	left: 12px;
 }
+
 /*css3 keyframes for glittering effect*/
 @-webkit-keyframes glitter {
 	0%   { -webkit-transform: scale(1.0); opacity: 1; }
