@@ -154,19 +154,6 @@ a:focus {
     -o-background-size: cover;
 }
 
-.intro p {
-    //margin-bottom: 100px;
-    padding-top: 500px;
-    height: 600px;
-    background: url(../img/aboutSection.png) no-repeat center center scroll;
-    background-color: #212121;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    color: #e3e3e3;
-}
-
 .leftFloat {
     float: left;
 }
