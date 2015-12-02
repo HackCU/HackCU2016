@@ -18,7 +18,8 @@ loop={
 	rand:function(){
 		return Math.random();
 	},
-	//createing html dom for star
+        
+	//creating html for star
 	newStar:function(){
 		var d = document.createElement('div');
 		d.innerHTML = '<figure class="star"><figure class="star-top"></figure><figure class="star-bottom"></figure></figure>';
