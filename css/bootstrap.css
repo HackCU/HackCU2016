@@ -1144,8 +1144,8 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-  width: 75%;
-  height: 75%;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   margin-bottom: 120px;
 }
