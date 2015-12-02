@@ -269,7 +269,7 @@ a:focus {
     margin-bottom: 100px;
     padding-top: 100px;
     height: 600px;
-    background: url(../img/aboutSection.png) no-repeat center center scroll;
+    //background: url(../img/aboutSection.png) no-repeat center center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
