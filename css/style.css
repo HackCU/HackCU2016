@@ -293,10 +293,6 @@ img {
     font-size: 26px;
 }
 
-faq h3{
-    font-size: 26px;
-}
-
 .application-section {
     width: 100%;
     height: 600px;
@@ -409,12 +405,12 @@ date-section {
 }
 
 .faq-section a {
-    font-size: 22px;
+    font-size: 28px;
     color: #00ccff;
 }
 
 .faq-section a:hover {
-    color: #0a5996;
+    color: #ffd100;
 }
 
 .faq-section .row {
