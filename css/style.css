@@ -37,6 +37,7 @@ h2 {
 h3 {
     font-size: 40px;
 }
+
 p {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -97,6 +98,7 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
+    font-size: 22px;
 }
 
 .navbar-custom .nav li a {
@@ -161,8 +163,17 @@ a:focus {
     -o-background-size: cover;
 }
 
+.intro img {
+    padding-top: 100px;
+    width: 40%;
+    height: 40%;
+}
+
 .intro h2 {
     color: #00ccff;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-size: 35px;
 }
 
 .leftFloat a {
@@ -278,8 +289,10 @@ a:focus {
 
 .content-section {
     margin-bottom: 100px;
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
     height: 600px;
+    text-align: center;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -307,15 +320,6 @@ img {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-date-section {
-    background-color: #000;
-}
-
-.date-section p {
-    color: #e3e3e3;
-    font-size: 30px;
 }
 
 .application-section h2 {
@@ -367,12 +371,10 @@ date-section {
     -o-background-size: cover;
 }
 
-.sponsor-section h3 {
+.sponsor-section h2 {
     padding-top: 100px;
     padding-bottom: 20px;
-    font-size: 57px;
-    text-align: center;
-    color: #ffd100;   
+    text-align: center;  
 }
 
 .faq-section {
@@ -428,7 +430,6 @@ date-section {
 }
 
 .btn {
-    /*border-radius: 0;*/
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -438,18 +439,19 @@ date-section {
 }
 
 .btn-default {
-	margin-bottom: 60px;
-    border: 2px solid #0a5996;
-    color: #0a5996;
+    margin-bottom: 60px;
+    border: 2px solid #00ccff;
+    color: #fff;
+    font-size: 28px;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 2px solid #0a5996;
+    border: 2px solid #00ccff;
     outline: 0;
     color: #000;
-    background-color: #0a5996;
+    background-color: #00ccff;
 }
 
 ul.banner-social-buttons {
@@ -636,6 +638,7 @@ img::-moz-selection {
 .team-section h2 {
     padding-top: 200px;
     padding-bottom: 30px;
+    color: #00ccff;
 }
 
 .team-section p {
@@ -646,6 +649,7 @@ img::-moz-selection {
 
 .team-section a {
     color: #fff;
+    text-align: center;
 }
 
 .team-section a:hover, a:focus{
