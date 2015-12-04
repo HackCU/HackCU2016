@@ -385,8 +385,9 @@ date-section {
 
 .faq-section {
     width: 100%;
-    padding: 100px 0;
+    padding: 100px 50px 100px 50px;
     color: #cccccc;
+    clear: both;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -401,10 +402,10 @@ date-section {
 
 .faq-section h3 {
     color: #0a5996;
-    //font-size: 41px;
+    font-size: 41px;
 }
 .faq-section p {
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .faq-section a {
