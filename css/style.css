@@ -154,7 +154,7 @@ a:focus {
     -o-background-size: cover;
 }
 .intro h2 {
-    color: #00ccff;
+    color: #0a5996;
 }
 
 .leftFloat {
@@ -351,7 +351,7 @@ date-section {
 
 .schedule-section h3 {
     padding-left: 50px;
-	padding-bottom: 40px;
+    padding-bottom: 40px;
     font-size: 57px;
     color: #ffd100;
     text-align: center;
@@ -360,8 +360,6 @@ date-section {
 .schedule-section .row {
     padding-bottom: 50px;
 }
-
-
 
 .sponsor-section {
     width: 100%;
