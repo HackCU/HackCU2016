@@ -153,6 +153,9 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+.intro h2 {
+    color: #00ccff;
+}
 
 .leftFloat {
     float: left;
@@ -403,7 +406,11 @@ date-section {
 
 .faq-section a {
     font-size: 22px;
-    color: #ffd100;
+    color: #00ccff;
+}
+
+.faq-section a:hover {
+    color: #0a5996;
 }
 
 .faq-section .row {
