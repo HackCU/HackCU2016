@@ -28,8 +28,15 @@ h6 {
     font-weight: 500;
     letter-spacing: 1px;
     color: #ffd100;
+    text-align: center;
+}
+h2 {
+    font-size: 57px;
 }
 
+h3 {
+    font-size: 40px;
+}
 p {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -38,13 +45,13 @@ p {
 
 @media(min-width:768px) {
     p {
-        font-size: 20px;
+        font-size: 28px;
         line-height: 1.6;
     }
 }
 
 a {
-    color: #0a5996;
+    color: #00ccff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -153,8 +160,9 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
 .intro h2 {
-    color: #0a5996;
+    color: #00ccff;
 }
 
 .leftFloat a {
@@ -163,11 +171,6 @@ a:focus {
 
 .rightFloat a{
     float: right;
-}
-
-.heart {
-    width: 10%;
-    height: 10%;
 }
 
 .intro .intro-body {
@@ -350,14 +353,6 @@ date-section {
     padding-left: 50px;
 }
 
-.schedule-section h3 {
-    padding-left: 50px;
-    padding-bottom: 40px;
-    font-size: 57px;
-    color: #ffd100;
-    text-align: center;
-}
-
 .schedule-section .row {
     padding-bottom: 50px;
 }
@@ -373,6 +368,7 @@ date-section {
 }
 
 .sponsor-section h3 {
+    padding-top: 100px;
     padding-bottom: 20px;
     font-size: 57px;
     text-align: center;
@@ -391,21 +387,13 @@ date-section {
     -o-background-size: cover; 
 }
 
-.faq-section h2 {
-    text-align: center;
-    font-size: 57px;
-}
-
 .faq-section h3 {
     color: #0a5996;
     font-size: 41px;
 }
-.faq-section p {
-    font-size: 28px;
-}
+
 
 .faq-section a {
-    font-size: 28px;
     color: #00ccff;
 }
 
@@ -491,14 +479,19 @@ footer {
     width: 100%;
     margin-top: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
     bottom: 0px;
-    font-size: 24px;
+    font-size: 22px;
     color: #e3e3e3;
     background-color: #666666;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+footer p {
+    font-size: 22px;
 }
 
 footer a {
@@ -511,17 +504,6 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: #e9be00;
-}
-
-.logo {
-    width: 120px; 
-    height: 120px;
-}
-
-#map {
-    width: 100%;
-    margin-top: 100px;
-    -webkit-filter: grayscale(1);
 }
 
 ::-moz-selection {
@@ -564,6 +546,8 @@ img::-moz-selection {
     40% {transform: translateY(-30px);} 
     60% {transform: translateY(-15px);} 
 } 
+
+
 
 //----------------------------------------------
 // Star animation: http://jsfiddle.net/H29j7/6/
@@ -650,10 +634,31 @@ img::-moz-selection {
 }
 
 .team-section h2 {
-    padding-top: 400px;
-    font-size: 57px;
+    padding-top: 200px;
+    padding-bottom: 30px;
 }
 
 .team-section p {
     color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.team-section a {
+    color: #fff;
+}
+
+.team-section a:hover, a:focus{
+    text-decoration: none;
+    color: #ffd100;
+}
+
+.heart {
+    width: 10%;
+    height: 10%;
+}
+
+.logo {
+    width: 120px; 
+    height: 120px;
 }
