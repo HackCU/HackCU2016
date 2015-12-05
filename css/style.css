@@ -292,6 +292,7 @@ a:focus {
     padding-top: 200px;
     padding-bottom: 100px;
     height: 600px;
+    z-index: 4;
     text-align: center;
     background-color: #212121;
     -webkit-background-size: cover;
@@ -568,6 +569,11 @@ img::-moz-selection {
 	       -box-sizing: border-box;
 }
 
+.stars {
+    position: relative;
+    z-index: -5;
+}
+
 .star {
 	display: block;
 	position: absolute;
@@ -577,13 +583,14 @@ img::-moz-selection {
 	height: 24px;
 	background: #F6F6F6;
 	overflow: hidden;
-	z-index: 2;
+	z-index: -10;
 	animation: glitter 4.5s linear 0s infinite normal;
 	-webkit-animation: glitter 4.5s linear 0s infinite normal;
 	-moz-animation: glitter 4.5s linear 0s infinite normal;
 	-ms-animation: glitter 4.5s linear 0s infinite normal;
 	-o-animation: glitter 4.5s linear 0s infinite normal;
 }
+
 .star-top,.star-bottom{
 	position: relative;
 	display: block;
@@ -601,7 +608,7 @@ img::-moz-selection {
 	position: absolute;
 }
 
-/*CSS3 pseudo class for positioning curves*/
+/* Positioning curves */
 .star-top:before {
 	top: -12px;
 	left: -12px;
