@@ -20,7 +20,7 @@ var limit=60, // Max number of stars
 		return Math.random();
 	},
         
-	//creating html for star
+	//creating html for stars
 	newStar:function() {
 		var d = document.createElement('div');
 		d.innerHTML = '<figure class="star"><figure class="star-top"></figure><figure class="star-bottom"></figure></figure>';
@@ -28,6 +28,7 @@ var limit=60, // Max number of stars
 	}
 };
 
+//loop through to place stars at divs containing 'stars'
 stars = document.getElementsByClassName('stars');
 for(var i = 0; i < stars.length; i++) {
     loop.start(stars[i]);
