@@ -72,7 +72,7 @@ a:focus {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
+    //text-transform: uppercase;
     font-family: 'Josefin Sans',"Helvetica Neue",Arial,sans-serif;
     background-color: #000;
 }
@@ -98,7 +98,7 @@ a:focus {
 
 .navbar-custom a {
     color: #fff;
-    font-size: 22px;
+    font-size: 1.8em;
 }
 
 .navbar-custom .nav li a {
@@ -315,6 +315,7 @@ img {
     height: 600px;
     padding: 150px 0 100px 0;
     color: #fff;
+    z-index: 4;
     background: url(../img/flatirons.png) no-repeat top center scroll;
     background-color: #212121;
     -webkit-background-size: cover;
@@ -330,9 +331,6 @@ img {
 
 .schedule-section {
     width: 100%;
-    //height: 1400px;
-    //padding-top: 100px;
-    //padding-bottom: 150px;
     color: #000;
     display: inline-block;
     background: url(../img/cityFade.png) no-repeat center center scroll;
