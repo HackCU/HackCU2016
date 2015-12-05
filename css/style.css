@@ -316,8 +316,8 @@ img {
     padding-left: 50px;
 }
 
-.schedule-section .row {
-    padding-bottom: 50px;
+.schedule-section h3 {
+    text-align: left;
 }
 
 .sponsor-section {
@@ -620,8 +620,8 @@ img::-moz-selection {
 }
 
 .heart {
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
 }
 
 .logo {
