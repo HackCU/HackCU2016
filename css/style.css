@@ -66,7 +66,7 @@ a:focus {
 }
 
 .light {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .navbar-custom {
@@ -212,47 +212,6 @@ a:focus {
     }
 }
 
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 100%!important;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background-color: #0a5996;
-    //background: rgba(255,255,255,.1);
-}
-
-.btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
 @-webkit-keyframes pulse {    
     0% {
         -webkit-transform: scale(1);
@@ -304,6 +263,7 @@ a:focus {
 
 img {
     width: 100%;
+    z-index: 15;
 }
 
 .content-section p {
@@ -377,22 +337,19 @@ img {
 }
 
 .faq-section {
-    width: 100%;
-    padding: 100px 50px 100px 50px;
     color: #cccccc;
-    clear: both;
+    font-size: 1em;
     background-color: #212121;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover; 
 }
 
 .faq-section h3 {
-    color: #0a5996;
-    font-size: 41px;
+    color: #00ccff;
+    text-align: left;
+    font-size: 1.8em;
 }
-
+faq-section li {
+    font-size: 1em;
+}
 
 .faq-section a {
     color: #00ccff;
@@ -439,18 +396,18 @@ img {
 
 .btn-default {
     margin-bottom: 60px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #00ccff;
+    color: #00ccff;
     font-size: 28px;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 2px solid #fff;
+    border: 2px solid #00ccff;
     outline: 0;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #00ccff;
 }
 
 ul.banner-social-buttons {

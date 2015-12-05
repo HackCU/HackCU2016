@@ -1,6 +1,6 @@
 
 
-var limit=100, // Max number of stars
+var limit = 60, // Max number of stars
     loop = {
 	//initilizing
 	start:function(starDOM) {
