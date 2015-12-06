@@ -291,9 +291,11 @@ img {
 
 .schedule-section {
     width: 100%;
+    height: 100%;
     color: #000;
     display: inline-block;
-    background: url(../img/cityFade.png) no-repeat center center scroll;
+    background: url(../img/gradient.png) no-repeat center center scroll;
+    z-index: 10;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -302,6 +304,10 @@ img {
 
 .schedule-section p{
     color:white;
+}
+
+.schedule-section background {
+        z-index: 12;
 }
 
 .schedule-section li{
@@ -323,6 +329,8 @@ img {
 .sponsor-section {
     width: 100%;
     color: #fff;
+    padding-top: 100px;
+    padding-bottom: 200px;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -331,7 +339,6 @@ img {
 }
 
 .sponsor-section h2 {
-    padding-top: 100px;
     padding-bottom: 20px;
     text-align: center;  
 }
@@ -339,6 +346,7 @@ img {
 .faq-section {
     color: #cccccc;
     font-size: 1em;
+    padding-top: 100px;
     background-color: #212121;
 }
 
