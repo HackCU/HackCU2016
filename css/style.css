@@ -10,6 +10,7 @@ body {
     font-family: 'Josefin Sans', Lato, Arial, "Helvetica Neue",Helvetica, sans-serif;
     color: #000;
     background-color: #212121;
+    margin: 0;
 }
 
 html {
@@ -153,9 +154,10 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
     text-align: center;
     color: #fff;
+    z-index: 10;
     background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,46 +249,26 @@ a:focus {
 }
 
 .content-section {
-    margin-bottom: 100px;
-    padding-top: 200px;
+    margin-top: 100px;
+    display: table-row;
+    padding-top: 4000px;
     padding-bottom: 100px;
-    height: 600px;
     z-index: 4;
     text-align: center;
     background-color: #212121;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    color: #e3e3e3;
+    color: #fff;
 }
 
+.content-section h2 {
+    padding-top: 200px;
+}
 img {
     width: 100%;
     z-index: 15;
 }
 
 .content-section p {
-    font-size: 26px;
-}
-
-.application-section {
-    width: 100%;
-    height: 600px;
-    padding: 150px 0 100px 0;
-    color: #fff;
-    z-index: 4;
-    background: url(../img/flatirons.png) no-repeat top center scroll;
-    background-color: #212121;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.application-section h2 {
-    color: #e3e3e3;
-    font-size: 26px;
+    font-size: 2em;
 }
 
 .schedule-section {
@@ -303,7 +285,11 @@ img {
 }
 
 .schedule-section p{
-    color:white;
+    color: #fff;
+}
+
+.schedule-section h2 {
+    padding-top: 100px;
 }
 
 .schedule-section background {
@@ -351,7 +337,7 @@ img {
 }
 
 .faq-section h3 {
-    color: #00ccff;
+    color: #0a5996;
     text-align: left;
     font-size: 1.8em;
 }
@@ -404,18 +390,18 @@ faq-section li {
 
 .btn-default {
     margin-bottom: 60px;
-    border: 2px solid #00ccff;
-    color: #00ccff;
+    border: 2px solid #0a5996;
+    color: #BAD5DD;
     font-size: 28px;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 2px solid #00ccff;
+    border: 2px solid #0a5996;
     outline: 0;
     color: #fff;
-    background-color: #00ccff;
+    background-color: #0a5996;
 }
 
 ul.banner-social-buttons {
