@@ -154,7 +154,6 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0 0 0;
     text-align: center;
     color: #fff;
     z-index: 10;
@@ -166,13 +165,13 @@ a:focus {
 }
 
 .intro img {
-    padding-top: 100px;
-    width: 40%;
-    height: 40%;
+    padding-top: 200px;
+    width: 30%;
+    height: 30%;
 }
 
 .intro h2 {
-    color: #fff;
+    color: #0a5996;
     padding-top: 100px;
     padding-bottom: 25px;
     font-size: 35px;
@@ -277,7 +276,6 @@ img {
     color: #000;
     display: inline-block;
     background: url(../img/gradient.png) no-repeat center center scroll;
-    z-index: 10;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -397,7 +395,7 @@ faq-section li {
 .btn-default {
     margin-bottom: 60px;
     border: 2px solid #0a5996;
-    color: #BAD5DD;
+    color: #fff;
     font-size: 28px;
     background-color: transparent;
 }
