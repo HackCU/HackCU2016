@@ -28,7 +28,7 @@ h6 {
     font-family: 'Josefin Sans', Arial, sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #ffd100;
+    color: #0a5996;
     text-align: center;
 }
 h2 {
@@ -290,6 +290,12 @@ img {
 
 .schedule-section h2 {
     padding-top: 100px;
+    padding-bottom: 70px;
+    color: #000;
+}
+
+.schedule-section h3 {
+    color: #000;
 }
 
 .schedule-section background {
