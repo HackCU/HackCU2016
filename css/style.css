@@ -166,13 +166,14 @@ a:focus {
 
 .intro img {
     padding-top: 200px;
+	padding-bottom: 0px;
     width: 30%;
     height: 30%;
 }
 
 .intro h2 {
     color: #0a5996;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 25px;
     font-size: 35px;
 }
@@ -259,7 +260,7 @@ a:focus {
 }
 
 .content-section h2 {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 img {
     width: 100%;
