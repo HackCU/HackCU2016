@@ -273,14 +273,19 @@ img {
 
 .schedule-section {
     width: 100%;
-    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
     color: #000;
     display: inline-block;
-    background: url(../img/gradient.png) no-repeat center center scroll;
+    background: url(../img/cityFade.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.schedule-section img{
+    width= 100%;
 }
 
 .schedule-section p{
