@@ -30,7 +30,7 @@ var limit = 60, // Max number of stars
 
 //loop through to place stars at divs containing 'stars'
 stars = document.getElementsByClassName('stars');
-for(var i = 0; i < stars.length; i++) {
+for(var i = 0; i < 100; i++) {
     loop.start(stars[i]);
 }
 
