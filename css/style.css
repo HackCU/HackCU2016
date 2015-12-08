@@ -275,6 +275,8 @@ img {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    padding-top: 100px;
+    margin-top: 0;
     color: #000;
     display: inline-block;
     background: url(../img/cityFade.png) no-repeat center center scroll;
@@ -286,6 +288,7 @@ img {
 
 .schedule-section img{
     width: 100%;
+    margin-top: 0;
 }
 
 .schedule-section p{
