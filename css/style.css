@@ -285,7 +285,7 @@ img {
 }
 
 .schedule-section img{
-    width= 100%;
+    width: 100%;
 }
 
 .schedule-section p{
@@ -391,6 +391,7 @@ faq-section li {
 
 .btn {
     text-transform: uppercase;
+    z-index: 10;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
@@ -599,6 +600,10 @@ img::-moz-selection {
 	50%  { -moz-transform: scale(1.0); opacity: 1; }
 	75%  { -moz-transform: scale(0.5); opacity: 0; }
 	100% { -moz-transform: scale(1.0); opacity: 1; }
+}
+
+.team-section {
+    width: 100%;
 }
 
 .team-section h2 {
