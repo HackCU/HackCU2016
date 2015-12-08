@@ -166,7 +166,7 @@ a:focus {
 
 .intro img {
     padding-top: 200px;
-	padding-bottom: 0px;
+    padding-bottom: 0px;
     width: 30%;
     height: 30%;
 }
@@ -531,7 +531,7 @@ img::-moz-selection {
 
 .stars {
     position: relative;
-    z-index: -5;
+    z-index: 100;
 }
 
 .star {
@@ -636,4 +636,8 @@ img::-moz-selection {
 .logo {
     width: 120px; 
     height: 120px;
+}
+
+.flatiron {
+    margin-bottom: 0;
 }
