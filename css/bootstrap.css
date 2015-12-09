@@ -184,6 +184,9 @@ table {
 td,
 th {
   padding: 0;
+  font-size: 1.8em;
+  color: #fff;
+  font-weight: lighter;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1144,8 +1147,8 @@ img {
 }
 .img-circle {
   border-radius: 50%;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   margin-bottom: 120px;
 }
@@ -1583,6 +1586,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .container {
