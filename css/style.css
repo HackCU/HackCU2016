@@ -172,7 +172,7 @@ a:focus {
 }
 
 .intro h2 {
-    color: #0a5996;
+    color: #e9be00;
     padding-top: 50px;
     padding-bottom: 25px;
     font-size: 35px;
@@ -261,6 +261,7 @@ a:focus {
 
 .content-section h2 {
     padding-top: 100px;
+    color: #e9be00;
 }
 img {
     width: 100%;
@@ -299,11 +300,11 @@ img {
 .schedule-section h2 {
     padding-top: 100px;
     padding-bottom: 70px;
-    color: #000;
+    color: #e9be00;
 }
 
 .schedule-section h3 {
-    color: #000;
+    color: #e9be00;
 }
 
 .schedule-section li{
@@ -337,6 +338,7 @@ img {
 .sponsor-section h2 {
     padding-bottom: 20px;
     text-align: center;  
+    color: #e9be00;
 }
 
 .faq-section {
@@ -352,7 +354,12 @@ img {
     text-align: left;
     font-size: 1.8em;
 }
-faq-section li {
+
+.faq-section h2 {
+    color: #e9be00;
+}
+
+.faq-section li {
     font-size: 1em;
 }
 
