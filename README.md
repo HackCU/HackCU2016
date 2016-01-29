@@ -1,29 +1,27 @@
 # HackCU2016
-[https://hackcu.org](https://hackcu.org)
+Home page for [HackCU 2016](http://hackcu.org)
 
 <br>
-## Installation
-Install node and npm
+## Contributing
+* Install node and npm (download node versions 4.x which auto-include npm 2.x)
+* npm install -g grunt-cli
 
-First time contributor:
+<br>
+#### First time contributor:
 ```shell
-npm install -g grunt-cli
+# Shortcut for "npm install && grunt && open dist/index.html"
+npm run newb
+
 ```
 
-Continuing Contributors:
+<br>
+#### Continuing Contributors:
 ```shell
-npm install
-
+npm install #Only call first time or after a "git pull"
+grunt #Call repeatedly
+open dist/index.html #Only call first time, then refresh in browser
 ```
 
-When adding node modules: `npm install --save <node_module_name>
-```
+* Edit content in /src and build with grunt. Consider leaving a `grunt watch` process in another window during your development. This eliminates the need to type `grunt` over and over. Simply refresh the webpage that is open to `dist/index.html`
 
-
-<br>
-##When
-April 1st-3rd, 2016
-
-<br>
-##Where
-Idea Forge, Boulder, CO
+* When adding node modules: `npm install --save <node_module_name>`
