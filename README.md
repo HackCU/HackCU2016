@@ -11,7 +11,8 @@ npm install -g grunt-cli
 
 
 ```
-
+When adding node modules: `npm install --save <node_module_name>
+```
 
 
 <br>
