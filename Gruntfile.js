@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           {
             expand: true,
             cwd: 'src',
-            src: ['**/*', '!**/*.{png,jpg,gif}'],
+            src: ['**/*', '!**/*.{png,jpg,gif}', '!js/*.js', 'js/*.min.js'],
             dest: 'dist'
           }
         ]
@@ -23,14 +23,25 @@ module.exports = function(grunt) {
 					dest: 'dist/'                  // Destination path prefix
 				}]
 			}
-    }
+    },
+		uglify: {
+			my_target: {
+				files: [{
+					expand: true,
+					cwd: 'src/',
+					src: ['js/*.js', '!js/*.min.js'],
+					dest: 'dist/'
+				}]
+			}
+		}
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-newer');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('production', ['clean', 'copy', 'imagemin']);
-  grunt.registerTask('default', ['newer:copy', 'newer:imagemin']);
+  grunt.registerTask('production', ['clean', 'copy', 'imagemin', 'uglify']);
+  grunt.registerTask('default', ['newer:copy', 'newer:imagemin', 'newer:uglify']);
 };
