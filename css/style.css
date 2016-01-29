@@ -73,7 +73,6 @@ a:focus {
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    //text-transform: uppercase;
     font-family: 'Josefin Sans',"Helvetica Neue",Arial,sans-serif;
     background-color: #000;
 }
@@ -408,7 +407,6 @@ img {
 }
 
 .btn-default {
-    margin-bottom: 60px;
     border: 2px solid #0a5996;
     color: #fff;
     font-size: 28px;
@@ -522,9 +520,10 @@ img::-moz-selection {
 
 
 
-//----------------------------------------------
-// Star animation: http://jsfiddle.net/H29j7/6/
-//----------------------------------------------
+/*
+Star animation: http://jsfiddle.net/H29j7/6/
+*/
+
 
 /*simple reset*/
 * {
@@ -541,7 +540,7 @@ img::-moz-selection {
 
 .stars {
     position: relative;
-    //z-index: 100;
+    
 }
 
 .star {
@@ -650,4 +649,17 @@ img::-moz-selection {
 
 .flatiron {
     margin-bottom: 0;
+}
+
+.lowercase {
+   text-transform: capitalize;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    color: #000;
+}
+
+.dropdown {
+    
 }
