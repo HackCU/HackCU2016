@@ -1,0 +1,19 @@
+{
+  "name": "hackcu2016",
+  "version": "1.0.0",
+  "description": "[https://hackcu.org](https://hackcu.org)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackCU/HackCU2016.git"
+  },
+  "author": "Dawson Botsford <dawsonbotsford@gmail.com> (http://dawsonbotsford.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackCU/HackCU2016/issues"
+  },
+  "homepage": "https://github.com/HackCU/HackCU2016#readme"
+}
