@@ -24,4 +24,6 @@ open dist/index.html #Only call first time, then refresh in browser
 
 * Edit content in /src and build with grunt. Consider leaving a `grunt watch` process in another window during your development. This eliminates the need to type `grunt` over and over. Simply refresh the webpage that is open to `dist/index.html`
 
+* Lint all custom JavaScript using the [eslint file](http://eslint.org/) provided.
+
 * When adding node modules: `npm install --save <node_module_name>`

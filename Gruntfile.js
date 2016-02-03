@@ -13,8 +13,10 @@ module.exports = function(grunt) {
 							'**/*',
 							'!**/*.{png,jpg,gif}',
 							'!js/*.js',
-							'js/*.min.js',
-              '!*.html'
+              '!*.html',
+              'js/*.min.js',
+              '!css/*.css',
+              'css/*.min.css'
 						],
             dest: 'dist'
           }
@@ -36,8 +38,8 @@ module.exports = function(grunt) {
         }]
       }
     },
-    
-cssmin: {
+
+    cssmin: {
       options: {
         removeComments: true,
         collapseWhitespace: true
@@ -45,9 +47,9 @@ cssmin: {
       all: {
         files: [{
 					expand: true,                  // Enable dynamic expansion
-					cwd: 'src/',                   // Src matches are relative to this path
-					src: ['*.css'],   // Actual patterns to match
-					dest: 'dist/'
+					cwd: 'src/css/',                   // Src matches are relative to this path
+					src: ['*.css', '!*.min.css'],   // Actual patterns to match
+					dest: 'dist/css'
         }]
       }
     },
@@ -92,7 +94,7 @@ cssmin: {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('production', ['clean', 'copy', 'htmlmin', 'imagemin', 'uglify', 'htmlmin']);
-  grunt.registerTask('default', ['newer:copy', 'newer:htmlmin', 'newer:imagemin', 'newer:uglify', 'newer:htmlmin']);
+  grunt.registerTask('production', ['clean', 'copy', 'htmlmin', 'imagemin', 'uglify', 'htmlmin', 'cssmin']);
+  grunt.registerTask('default', ['newer:copy', 'newer:htmlmin', 'newer:imagemin', 'newer:uglify', 'newer:htmlmin', 'newer:cssmin']);
 
 };
