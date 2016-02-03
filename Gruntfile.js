@@ -36,6 +36,21 @@ module.exports = function(grunt) {
         }]
       }
     },
+    
+cssmin: {
+      options: {
+        removeComments: true,
+        collapseWhitespace: true
+      },
+      all: {
+        files: [{
+					expand: true,                  // Enable dynamic expansion
+					cwd: 'src/',                   // Src matches are relative to this path
+					src: ['*.css'],   // Actual patterns to match
+					dest: 'dist/'
+        }]
+      }
+    },
 
     imagemin: {                          // Task
 			dynamic: {
@@ -71,6 +86,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-newer');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
