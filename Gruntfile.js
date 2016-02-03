@@ -45,7 +45,7 @@ cssmin: {
       all: {
         files: [{
 					expand: true,                  // Enable dynamic expansion
-					cwd: 'src/',                   // Src matches are relative to this path
+					cwd: 'src/css',                   // Src matches are relative to this path
 					src: ['*.css'],   // Actual patterns to match
 					dest: 'dist/'
         }]
