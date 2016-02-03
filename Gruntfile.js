@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   grunt.initConfig({
 
-    clean: ["dist"],
+    clean: ['dist'],
 
 		copy: {
       copy_untouched_resources_to_dist: {
@@ -13,16 +13,15 @@ module.exports = function(grunt) {
 							'**/*',
 							'!**/*.{png,jpg,gif}',
 							'!js/*.js',
-							'js/*.min.js'
+							'js/*.min.js',
+              '!*.html'
 						],
             dest: 'dist'
           }
         ]
       }
     },
-    
- 
-    
+
    htmlmin: {
       options: {
         removeComments: true,
@@ -32,12 +31,12 @@ module.exports = function(grunt) {
         files: [{
 					expand: true,                  // Enable dynamic expansion
 					cwd: 'src/',                   // Src matches are relative to this path
-					src: ['**/*.{html}'],   // Actual patterns to match
+					src: ['*.html'],   // Actual patterns to match
 					dest: 'dist/'
         }]
-      },
+      }
     },
-    
+
     imagemin: {                          // Task
 			dynamic: {
 				files: [{
@@ -77,7 +76,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('production', ['clean', 'copy', 'htmlmin', 'imagemin', 'uglify']);
-  grunt.registerTask('default', ['newer:copy', 'newer:htmlmin' , 'newer:imagemin', 'newer:uglify']);
+  grunt.registerTask('production', ['clean', 'copy', 'htmlmin', 'imagemin', 'uglify', 'htmlmin']);
+  grunt.registerTask('default', ['newer:copy', 'newer:htmlmin', 'newer:imagemin', 'newer:uglify', 'newer:htmlmin']);
 
 };
