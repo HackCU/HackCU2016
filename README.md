@@ -27,3 +27,5 @@ open dist/index.html #Only call first time, then refresh in browser
 * Lint all custom JavaScript using the [eslint file](http://eslint.org/) provided.
 
 * When adding node modules: `npm install --save <node_module_name>`
+
+* When testing html file appearance manually in browser, from `/` run `npm run open`
