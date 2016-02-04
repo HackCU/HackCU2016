@@ -411,6 +411,8 @@ img {
     color: #fff;
     font-size: 28px;
     background-color: transparent;
+	margin-left:25px;
+	margin-right:25px;
 }
 
 .btn-default:hover,
