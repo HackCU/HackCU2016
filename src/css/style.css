@@ -66,6 +66,10 @@ a:focus {
     color: #ffd100;
 }
 
+.dropdown {
+	padding-bottom: 10px;
+}
+
 .light {
     font-weight: 300;
 }
@@ -166,8 +170,7 @@ a:focus {
 .intro img {
     padding-top: 200px;
     padding-bottom: 0px;
-    width: 30%;
-    height: 30%;
+    width: 80%;
 }
 
 .intro h2 {
@@ -275,7 +278,6 @@ img {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 100px;
     margin-top: 0;
     color: #000;
     z-index: -20;
@@ -297,7 +299,6 @@ img {
 }
 
 .schedule-section h2 {
-    padding-top: 100px;
     padding-bottom: 70px;
     color: #e9be00;
 }
@@ -356,6 +357,7 @@ img {
 
 .faq-section h2 {
     color: #e9be00;
+	margin-bottom: 0;
 }
 
 .faq-section li {
@@ -411,6 +413,8 @@ img {
     color: #fff;
     font-size: 28px;
     background-color: transparent;
+	margin-left: 25px;
+	margin-right: 25px;	
 }
 
 .btn-default:hover,
