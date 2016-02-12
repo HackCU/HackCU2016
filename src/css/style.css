@@ -9,7 +9,8 @@ body {
     height: 100%;
     font-family: 'Josefin Sans', Lato, Arial, "Helvetica Neue",Helvetica, sans-serif;
     color: #000;
-    background-color: #212121;
+    /*background-color: #212121;*/
+    background-color: #000;
     margin: 0;
 }
 
@@ -153,18 +154,20 @@ a:focus {
     }
 }
 
+
+.newintro h2 {
+    color: #0a5996;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
 .intro {
-    display: table;
     width: 100%;
     height: auto;
     text-align: center;
     color: #fff;
     z-index: 10;
-    background-color: #212121;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    /*background-color: #212121;*/
 }
 
 .intro img {
@@ -188,10 +191,10 @@ a:focus {
     float: right;
 }
 
-.intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
+/*.intro .intro-body {*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+/*}*/
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
@@ -253,12 +256,12 @@ a:focus {
 .content-section {
     margin-top: 100px;
     display: table-row;
-    padding-top: 4000px;
     padding-bottom: 100px;
     z-index: 4;
     text-align: center;
-    background-color: #212121;
+    background-color: #212a59;
     color: #fff;
+    padding: 0;
 }
 
 .content-section h2 {
@@ -272,6 +275,7 @@ img {
 
 .content-section p {
     font-size: 2em;
+    margin-bottom: 300px;
 }
 
 .schedule-section {
@@ -328,7 +332,6 @@ img {
     color: #fff;
     padding-top: 100px;
     padding-bottom: 200px;
-    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -337,14 +340,18 @@ img {
 
 .center-block img {
     padding: 2em;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     margin: 2em;
+}
+
+.sponsor-section img {
+    margin-bottom: 50px;
 }
 
 .sponsor-section h2 {
     padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;  
+    margin-bottom: 50px;
+    text-align: center;
     color: #e9be00;
 }
 
@@ -353,7 +360,7 @@ img {
     width: 100%;
     font-size: 1em;
     padding-top: 100px;
-    background-color: #212121;
+    /*background-color: #212121;*/
 }
 
 .faq-section h3 {
@@ -465,9 +472,9 @@ footer {
     bottom: 0px;
     font-size: 22px;
     color: #e3e3e3;
-    background-color: #666666;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-color: #212121;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
     background-size: cover;
     -o-background-size: cover;
 }
@@ -583,7 +590,7 @@ Star animation: http://jsfiddle.net/H29j7/6/
 	content: "";
 	width: 24px;
 	height: 24px;
-	background: #212121;
+	background: #000;
 	border-radius: 20%;
 	position: absolute;
 }
@@ -660,6 +667,7 @@ Star animation: http://jsfiddle.net/H29j7/6/
 
 .flatiron {
     margin-bottom: 0;
+    width: 100%;
 }
 
 .lowercase {

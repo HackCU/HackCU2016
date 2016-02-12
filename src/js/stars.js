@@ -1,6 +1,6 @@
 
 
-var limit = 60, // Max number of stars
+var limit = 30, // Max number of stars
     loop = {
 	//initilizing
 	start:function(starDOM) {
@@ -13,7 +13,7 @@ var limit = 60, // Max number of stars
 			if (starDOM) {
                             starDOM.appendChild(star);
                         }
-                };
+                }
 	},
 	//to get random number
 	rand:function() {
