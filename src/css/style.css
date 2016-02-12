@@ -350,9 +350,14 @@ img {
 }
 
 .sponsor-section h2 {
+<<<<<<< HEAD
     padding-top: 20px;
     margin-bottom: 50px;
     text-align: center;
+=======
+    padding-bottom: 20px;
+    text-align: center;  
+>>>>>>> parent of 269442b... Edited MLH logo
     color: #e9be00;
 }
 
