@@ -282,7 +282,8 @@ img {
     color: #000;
     z-index: -20;
     display: inline-block;
-    background: url(../img/cityFade.png) no-repeat center center scroll;
+    background-color: #212a59;
+    /*background: url(../img/cityFade.png) no-repeat center center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -328,7 +329,7 @@ img {
     color: #fff;
     padding-top: 100px;
     padding-bottom: 200px;
-    background-color: #212121;
+    background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -352,7 +353,7 @@ img {
     width: 100%;
     font-size: 1em;
     padding-top: 100px;
-    background-color: #212121;
+    background-color: #000000;
 }
 
 .faq-section h3 {
