@@ -286,7 +286,7 @@ img {
     color: #000;
     z-index: -20;
     display: inline-block;
-    background: url(../img/cityFade.png) no-repeat center center scroll;
+    background-color: #212a59;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -329,6 +329,7 @@ img {
 
 .sponsor-section {
     width: 100%;
+    background-color: #879ecc;
     color: #fff;
     padding-top: 100px;
     padding-bottom: 200px;
@@ -360,7 +361,7 @@ img {
     width: 100%;
     font-size: 1em;
     padding-top: 100px;
-    /*background-color: #212121;*/
+    background-color: #879ecc;
 }
 
 .faq-section h3 {
