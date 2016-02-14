@@ -348,6 +348,24 @@ img {
     color: #e9be00;
 }
 
+.judges-section {
+    width: 100%;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.judges-section h2 {
+    padding-bottom: 20px;
+    text-align: center;  
+    color: #e9be00;
+}
+
 .faq-section {
     color: #cccccc;
     width: 100%;
