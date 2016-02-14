@@ -352,8 +352,8 @@ img {
     width: 100%;
     color: #fff;
     padding-top: 100px;
-    padding-bottom: 200px;
-    background-color: #000000;
+    padding-bottom: 100px;
+    background-color: #212121;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -366,12 +366,21 @@ img {
     color: #e9be00;
 }
 
+.judges-section img {
+	padding: 0;
+	float:left;
+}
+
+.judges-section p{
+	margin:2em;
+}
+
 .faq-section {
     color: #cccccc;
     width: 100%;
     font-size: 1em;
     padding-top: 100px;
-    background-color: #000000;
+    background-color: #404040;
 }
 
 .faq-section h3 {
@@ -475,7 +484,6 @@ ul.banner-social-buttons {
 footer {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
-    margin-top: 10px;
     padding-top: 10px;
     margin-left: 0;
     margin-right: 0;
