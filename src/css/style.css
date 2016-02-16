@@ -369,10 +369,15 @@ img {
 .judges-section img {
 	padding: 0;
 	float:left;
+	width:20%;
+	height:20%;
 }
 
 .judges-section p{
-	margin:2em;
+	margin:1em;
+	float:right;
+	width:70%;
+	height:70%;
 }
 
 .faq-section {
