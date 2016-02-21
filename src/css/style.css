@@ -348,6 +348,10 @@ img {
     color: #e9be00;
 }
 
+.sponsor-section .center-block{
+	width:100%;
+}
+
 .judges-section {
     width: 100%;
     color: #fff;
@@ -374,10 +378,11 @@ img {
 }
 
 .judges-section p{
-	margin:1em;
+	margin-top:1em;
 	float:right;
-	width:70%;
+	width:60%;
 	height:70%;
+	font-size:1.3em;
 }
 
 .faq-section {
