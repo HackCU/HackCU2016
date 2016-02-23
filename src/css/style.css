@@ -348,6 +348,13 @@ img {
     color: #e9be00;
 }
 
+.sponsor-section hr {
+		height:2px;
+		background-color:white;
+		width:80%;
+		margin-left:10%;
+}
+
 .judges-section {
     width: 100%;
     color: #fff;
