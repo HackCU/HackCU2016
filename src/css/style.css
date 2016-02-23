@@ -512,6 +512,7 @@ footer {
 
 footer p {
     font-size: 22px;
+		float:left;
 }
 
 footer a {
@@ -519,6 +520,7 @@ footer a {
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
+		float:left;
 }
 
 footer a:hover {
