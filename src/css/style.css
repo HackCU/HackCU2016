@@ -328,7 +328,7 @@ img {
     width: 100%;
     color: #fff;
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 0px;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -436,7 +436,7 @@ img {
     }
 
     .application-section, .sponsor-section {
-        padding: 70px 0;
+        padding: 0px 0;
     }
 
     #map {
