@@ -383,8 +383,9 @@ img {
 .judges-section p{
 	margin:1em;
 	float:right;
-	width:70%;
+	width:60%;
 	height:70%;
+	font-size:1.3em;
 }
 
 .faq-section {
