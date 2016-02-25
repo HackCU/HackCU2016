@@ -397,11 +397,12 @@ img {
     width: 100%;
     font-size: 1em;
     padding-top: 100px;
-    background-color: #404040;
+    /*background-color: #404040;*/
+    background-color: #000000;
 }
 
 .faq-section h3 {
-    color: #0a5996;
+    color: #00ccff;
     text-align: left;
     font-size: 1.8em;
 }
