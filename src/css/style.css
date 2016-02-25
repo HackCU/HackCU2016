@@ -328,7 +328,7 @@ img {
     width: 100%;
     color: #fff;
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 0px;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -350,6 +350,13 @@ img {
 
 .sponsor-section .center-block{
 	width:100%;
+}
+
+.sponsor-section hr {
+		height:2px;
+		background-color:white;
+		width:80%;
+		margin-left:10%;
 }
 
 .judges-section {
@@ -433,7 +440,7 @@ img {
     }
 
     .application-section, .sponsor-section {
-        padding: 70px 0;
+        padding: 0px 0;
     }
 
     #map {
@@ -510,6 +517,7 @@ footer {
 
 footer p {
     font-size: 22px;
+		float:left;
 }
 
 footer a {
@@ -517,6 +525,7 @@ footer a {
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
+		float:left;
 }
 
 footer a:hover {
