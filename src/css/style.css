@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #000000;
+    background-color: #212121;
     z-index: 5;
 }
 
@@ -806,7 +806,8 @@ body {
 }
 
 .team-member img {
-    width: 70%;
+    width: 300px;
+    height: 300px;
 }
 
 .team-member img:hover {
@@ -839,5 +840,46 @@ body {
 #schedule p{
     color: #fff;
     font-size: 1.6em;
+}
+
+#schedule td {
+    border-top: none;
+    color: #fff;
+    font-size: 1.4em;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+#about .yellow h3 {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.city{
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #222a59;
+}
+
+.city img{
+    width: 100%;
+    margin:0;
+}
+
+#team {
+    margin-top: 100px;
+}
+
+.clients {
+    background-color: #222a59;
+}
+
+.clients img {
+    width: 75%;
+}
+
+#map .container {
+    width: 100%;
+    background-color: #000;
 }
 
