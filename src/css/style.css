@@ -94,7 +94,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     border-radius: 3px;
     font-size: 18px;
-    padding: 20px 40px
+    padding: 20px 40px;
+    margin-bottom: 200px;
 }
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
@@ -120,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default {
     background-color: #222;
     border-color: transparent
+
 }
 
 .navbar-default .navbar-brand {
@@ -659,7 +661,15 @@ section#contact .text-danger {
 
 footer {
     padding: 25px 0;
-    text-align: center
+    text-align: center;
+    position: relative;
+
+}
+
+footer .container{
+    position: relative;
+    bottom: 0;
+    clear: both;
 }
 
 footer span.copyright {
@@ -836,11 +846,6 @@ body {
     font-weight: 200;
 }
 
-#about .yellow h3 {
-    font-size: 2.5em;
-    font-weight: 100;
-}
-
 .city{
     width: 100%;
     margin-bottom: 0;
@@ -864,8 +869,8 @@ body {
 #map .container {
     width: 100%;
     background-color: #222;
-    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-    filter: grayscale(100%);
+    /*-webkit-filter: grayscale(100%); !* Chrome, Safari, Opera *!*/
+    /*filter: grayscale(100%);*/
 }
 
 .partner img{
@@ -875,4 +880,14 @@ body {
 .interested{
     background-color: #222;
     margin-bottom: 200px;
+}
+
+.yellow {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+#about p{
+    color: #999999;
+    font-size: 1.2em;
 }
