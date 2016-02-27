@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
@@ -806,33 +806,19 @@ body {
 }
 
 .team-member img {
+    object-fit: cover;
     width: 300px;
     height: 300px;
 }
 
-.team-member img:hover {
-    color: #000000;
+.team-member a:hover img{
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 
-.team-member i {
-    display: block;
-    background-color: #000000;
-    height: 40px;
-    width: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    color: #fff;
-    outline: 0;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s
+.team-member p{
+    padding-bottom: 60px;
 }
-
-.team-member a:hover {
-    color: #398439;
-}
-
 .sponsor {
     margin: 50px;
 }
@@ -872,14 +858,21 @@ body {
 
 .clients {
     background-color: #222a59;
-}
-
-.clients img {
-    width: 75%;
+    padding: 0;
 }
 
 #map .container {
     width: 100%;
-    background-color: #000;
+    background-color: #222;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 
+.partner img{
+    width: 70%;
+}
+
+.interested{
+    background-color: #222;
+    margin-bottom: 200px;
+}
