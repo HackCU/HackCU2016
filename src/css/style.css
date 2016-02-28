@@ -41,7 +41,7 @@ a:hover, a:focus, a:active, a.active {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fec503;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 .img-centered {
@@ -222,7 +222,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -245,7 +245,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
         font-size: 40px;
         line-height: 40px;
@@ -358,7 +358,7 @@ section h3.section-subheading {
 }
 
 #schedule .schedule-item .portfolio-caption p {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
     margin: 0
@@ -706,7 +706,6 @@ ul.social-buttons li a {
 
 
 ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-    /*background-color: #fed136*/
     text-decoration: none;
     color: #fed136;
 }
@@ -737,7 +736,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 16px
 }
@@ -886,6 +885,7 @@ body {
 #about p{
     color: #999999;
     font-size: 1.2em;
+    font-weight: 300;
 }
 
 #clients h2 {
@@ -909,7 +909,9 @@ body {
  }
 
  .hackculogo h3 {
-     margin-top: 0;
-     margin-bottom: .5em;
+     padding-bottom: 100px;
      font-weight: 300;
  }
+
+
+
