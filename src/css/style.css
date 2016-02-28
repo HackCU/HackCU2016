@@ -1,8 +1,7 @@
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #212121;
-    /*z-index: 5;*/
 }
 
 .text-muted {
@@ -14,15 +13,15 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75
+    font-size: 1.4em;
 }
 
 iframe {
     height: 100%;
 }
+
 p.large {
-    font-size: 16px
+    font-size: 1.6em;
 }
 
 a, a:hover, a:focus, a:active, a.active {
@@ -31,7 +30,7 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 a {
-    color: #fed136
+    color: #fed136;
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -40,9 +39,7 @@ a:hover, a:focus, a:active, a.active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fec503;
     margin-bottom: 45px;
 }
@@ -64,8 +61,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fed136;
     border-color: #fed136;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
@@ -89,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl {
-    color: #fff;
+    color: #000;
     background-color: #fed136;
     border-color: #fed136;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -279,9 +274,9 @@ section h2.section-heading {
 
 section h3.section-subheading {
     font-size: 1.8em;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
-    font-weight: 300;
+    font-weight: 200;
     color: #999999;
     /*margin-bottom: 75px*/
 
@@ -906,4 +901,15 @@ body {
 
  #document {
      padding-top: 100px;
+ }
+
+ .hackculogo img{
+     width: 25%;
+     margin-bottom: 0;
+ }
+
+ .hackculogo h3 {
+     margin-top: 0;
+     margin-bottom: .5em;
+     font-weight: 300;
  }
