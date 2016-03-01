@@ -295,7 +295,7 @@ section h3.section-subheading {
 }
 
 #schedule {
-    background-color: #222a59;
+    background-color: #1e254f;
     margin: 0px;
 }
 
@@ -312,7 +312,7 @@ section h3.section-subheading {
 }
 
 #schedule .schedule-item .portfolio-link .portfolio-hover {
-    background-color: #222a59;
+    background-color: #1e254f;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -348,7 +348,7 @@ section h3.section-subheading {
 #schedule .schedule-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
-    background-color: #222a59;
+    background-color: #1e254f;
     text-align: center;
     padding: 25px
 }
@@ -800,7 +800,7 @@ body {
 }
 
 .clients {
-    background-color: #222a59;
+    background-color: #1e254f;
     padding: 0;
 }
 
@@ -867,18 +867,19 @@ body {
     background-color: #222222;
 }
 
-.google-maps {
-    position: relative;
-    padding-bottom: 25%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
+.google-maps{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
+
+.google-maps iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 .flatiron img{
@@ -889,7 +890,7 @@ body {
 .city{
     width: 100%;
     margin-bottom: 0;
-    background-color: #222a59;
+    background-color: #1e254f;
 }
 
 .city img{

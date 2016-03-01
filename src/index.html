@@ -521,10 +521,7 @@
             <div>
                 <small><a href="http://freedirectorysubmissionsites.com">directory submission sites</a></small>
             </div>
-            <style>#gmap_canvas img {
-                max-width: none !important;
-                background: none !important
-            }</style>
+
         </div>
         <script type='text/javascript'>function init_map() {
             var myOptions = {
@@ -544,7 +541,12 @@
             });
             infowindow.open(map, marker);
         }
-        google.maps.event.addDomListener(window, 'load', init_map);</script>
+        google.maps.event.addDomListener(window, 'load', init_map);
+        google.maps.event.addDomListener(window, "resize", function() {
+            var center = map.getCenter();
+            google.maps.event.trigger(map, "resize");
+            map.setCenter(center);
+        });</script>
 
     </div>
 </section>
