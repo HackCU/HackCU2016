@@ -609,12 +609,26 @@ footer {
     padding: 25px 0;
     text-align: center;
     position: relative;
+    width: 100%;
+    bottom: 0;
     background-color: #000;
 }
 
 footer .container{
-    position: relative;
+    clear: both;
+    background-color: #000;
+}
+
+.footerApply {
+    padding: 25px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
     bottom: 0;
+    background-color: #000;
+}
+
+.footerApply .container{
     clear: both;
     background-color: #000;
 }
@@ -869,9 +883,15 @@ body {
 
 .google-maps{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom: 56%;
     position:relative;
     height:0;
+}
+
+@media only screen and (max-width: 500px) {
+    .google-maps {
+        padding-bottom: 100%;
+    }
 }
 
 .google-maps iframe{
