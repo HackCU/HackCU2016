@@ -793,16 +793,7 @@ body {
     font-weight: 200;
 }
 
-.city{
-    width: 100%;
-    margin-bottom: 0;
-    background-color: #222a59;
-}
 
-.city img{
-    width: 100%;
-    margin:0;
-}
 
 #team {
     margin-top: 100px;
@@ -888,6 +879,23 @@ body {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+.flatiron img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.city{
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #222a59;
+}
+
+.city img{
+    width: 100%;
+    height: auto;
+    margin:0;
 }
 
 
