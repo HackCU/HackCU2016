@@ -1,7 +1,8 @@
 body {
     overflow-x: hidden;
     font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #212121;
+    background-color: #222222;
+    font-family: 200;
 }
 
 .text-muted {
@@ -117,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-    background-color: #222;
+    background-color: #000;
     border-color: transparent
 
 }
@@ -194,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .navbar-default.navbar-shrink {
-        background-color: #222;
+        background-color: #000;
         padding: 10px 0
     }
 
@@ -600,59 +601,6 @@ section#map {
     background-color: #222;
 }
 
-section#contact .section-heading {
-    color: #fff
-}
-
-section#contact .form-group {
-    margin-bottom: 25px
-}
-
-section#contact .form-group input, section#contact .form-group textarea {
-    padding: 20px
-}
-
-section#contact .form-group input.form-control {
-    height: auto
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px
-}
-
-section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none
-}
-
-section#contact ::-webkit-input-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #bbb
-}
-
-section#contact :-moz-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #bbb
-}
-
-section#contact ::-moz-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #bbb
-}
-
-section#contact :-ms-input-placeholder {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #bbb
-}
-
 section#contact .text-danger {
     color: #e74c3c
 }
@@ -661,18 +609,19 @@ footer {
     padding: 25px 0;
     text-align: center;
     position: relative;
-
+    background-color: #000;
 }
 
 footer .container{
     position: relative;
     bottom: 0;
     clear: both;
+    background-color: #000;
 }
 
 footer span.copyright {
     line-height: 40px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none
 }
@@ -680,7 +629,7 @@ footer span.copyright {
 footer ul.quicklinks {
     margin-bottom: 0;
     line-height: 40px;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none
 }
@@ -826,6 +775,7 @@ body {
 .team-member p{
     padding-bottom: 60px;
 }
+
 .sponsor {
     margin: 50px;
 }
@@ -839,7 +789,7 @@ body {
     border-top: none;
     color: #fff;
     font-size: 1.4em;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 200;
 }
 
@@ -874,7 +824,7 @@ body {
 
 .interested{
     background-color: #222;
-    margin-bottom: 200px;
+    /*margin-bottom: 200px;*/
 }
 
 .yellow {
@@ -904,7 +854,7 @@ body {
  }
 
  .hackculogo img{
-     width: 25%;
+     width: 75%;
      margin-bottom: 0;
  }
 
@@ -913,5 +863,31 @@ body {
      font-weight: 300;
  }
 
+.about {
+    padding-bottom: 100px;
+}
+
+.judge{
+    background-color: #222222;
+    padding-top: 300px;
+}
+
+.community {
+    background-color: #222222;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 25%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
 
