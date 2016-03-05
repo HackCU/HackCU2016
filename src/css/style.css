@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
     font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #222222;
-    font-family: 200;
+    color: #fff;
 }
 
 .text-muted {
@@ -278,7 +278,7 @@ section h3.section-subheading {
     font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-weight: 200;
-    color: #999999;
+    color: #fff;
     /*margin-bottom: 75px*/
 
 }
@@ -590,7 +590,8 @@ section h3.section-subheading {
 }
 
 .team-member p {
-    margin-top: 0
+    margin-top: 0;
+    color: #fff;
 }
 
 aside.clients img {
@@ -824,12 +825,11 @@ body {
 }
 
 .partner img{
-    width: 50%;
+    width: 70%;
 }
 
 .interested{
-    background-color: #222;
-    /*margin-bottom: 200px;*/
+    background-color: #000;
 }
 
 .yellow {
@@ -838,7 +838,7 @@ body {
 }
 
 #about p{
-    color: #999999;
+    color: #fff;
     font-size: 1.2em;
     font-weight: 300;
 }
@@ -873,24 +873,28 @@ body {
 }
 
 .judge{
-    background-color: #222222;
+    background-color: #000;
     padding-top: 300px;
 }
 
 .community {
     background-color: #222222;
+    font-weight: 200;
+}
+.community p {
+    font-weight: 200;
 }
 
 .google-maps{
     overflow:hidden;
-    padding-bottom: 56%;
+    padding-bottom: 45%;
     position:relative;
     height:0;
 }
 
 @media only screen and (max-width: 500px) {
     .google-maps {
-        padding-bottom: 100%;
+        padding-bottom: 75%;
     }
 }
 
