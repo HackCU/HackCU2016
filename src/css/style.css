@@ -301,6 +301,7 @@ img {
 
 .schedule-section h2 {
     padding-bottom: 70px;
+    margin-top: 50px;
     color: #e9be00;
 }
 
@@ -730,4 +731,13 @@ th {
        left: 50%;
     }
 
+}
+
+.partner img {
+    width:70%;
+}
+
+.interested {
+    padding-bottom: 5em;
+    padding-top: 5em;
 }
