@@ -580,7 +580,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff
+    border: 3px solid #000
 }
 
 .team-member h4 {
@@ -829,7 +829,7 @@ body {
 }
 
 .interested{
-    background-color: #000;
+    background-color: #222222;
 }
 
 .yellow {
@@ -873,7 +873,7 @@ body {
 }
 
 .judge{
-    background-color: #000;
+    background-color: #222222;
     padding-top: 300px;
 }
 
