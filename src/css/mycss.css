@@ -877,6 +877,10 @@ body {
     padding-top: 300px;
 }
 
+.judge p {
+    font-size: 1em;
+}
+
 .community {
     background-color: #222222;
     font-weight: 200;

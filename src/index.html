@@ -27,8 +27,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
 
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet"/>
+    <!--<link href="css/style.css" rel="stylesheet"/>-->
     <link href="css/star.css" rel="stylesheet"/>
+    <link href="css/mycss.css" rel="stylesheet"/>
 
 
     <!-- Custom Fonts -->
@@ -42,15 +43,44 @@
 
 
 <!-- Navigation -->
-<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <div class="collapse navbar-collapse navbar-left">
-            <ul class="nav navbar-nav">
-                <li class="hidden">
-                    <a href="index.html"></a>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="#page-top">HackCU</a>-->
+        </div>
+
+        <div class="collapse navbar-collapse navbar-left" style="margin-right: 6em">
+            <ul class="list-inline social-buttons">
+                <li>
+                    <a target="_blank" href="#" style="margin-right: 40px;">HackCU</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="index.html">HackCU</a>
+                    <a target="_blank" href="https://www.facebook.com/letsHackCU/" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/HackCU" class="fa fa-twitter"></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/hackcu/" class="fa fa-instagram"></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#about">About</a>
@@ -61,399 +91,603 @@
                 <li>
                     <a class="page-scroll" href="#schedule">Schedule</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#sponsors">Sponsors</a>
+                <li style="margin-right: 100px;">
+                    <a class="page-scroll" href="#clients">Sponsors</a>
                 </li>
             </ul>
         </div>
 
-        <div class="collapse navbar-collapse navbar-right" style="margin-right: 6em">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a target="_blank" href="https://www.facebook.com/letsHackCU/" class="fa fa-facebook-square"></a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://twitter.com/HackCU" class="fa fa-twitter-square"></a>
-                </li>
-            </ul>
-        </div>
 
-        <a id="mlh-trust-badge"
-           style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000"
-           href="https://mlh.io/seasons/s2016/events?utm_source=s2016&utm_medium=TrustBadge&utm_campaign=s2016"
-           target="_blank"><img src="img/logos/mlh-banner.png"
-                                alt="MLH Official - Spring 2016" style="width:100%;"></a>
     </div>
+    <!-- MLH Banner -->
+    <a id="mlh-trust-badge"
+       style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000"
+       href="https://mlh.io/seasons/s2016/events?utm_source=s2016&utm_medium=TrustBadge&utm_campaign=s2016"
+       target="_blank">
+        <img src="img/logos/mlh-banner.png" alt="MLH Official - Spring 2016" style="width:100%;"></a>
 </nav>
 
 
-<!-- Intro -->
-<section class="intro intro-body container stars">
-    <div class="col-md-8 col-lg-offset-2 ">
-        <center><img src="img/Logo_Header.png" alt="HackCU logo"></center>
-        <br>
-
-
-
-
-        <h2>April 1<sup>st</sup> - April 3<sup>rd</sup> 2016</h2>
-        <a href="apply.html" class="btn btn-default btn-lg">Apply</a>
+<!-- Header -->
+<header class="stars">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading hackculogo">
+                <img src="img/Logo_Header.png" alt="HackCU logo">
+            </div>
+            <h3 class="yellow">April 1st - 3rd, 2016</h3>
+            <div>
+                <button type="button" class="center-block btn btn-xl" href="apply.html">Apply</button>
+            </div>
+        </div>
     </div>
-</section>
+</header>
+<!--<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">-->
+    <!--<div class="container">-->
+        <!--<div class="collapse navbar-collapse navbar-left">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li class="hidden">-->
+                    <!--<a href="index.html"></a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a class="page-scroll" href="index.html">HackCU</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a class="page-scroll" href="#about">About</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a class="page-scroll" href="apply.html">Apply</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a class="page-scroll" href="#schedule">Schedule</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a class="page-scroll" href="#sponsors">Sponsors</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--<div class="collapse navbar-collapse navbar-right" style="margin-right: 6em">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li>-->
+                    <!--<a target="_blank" href="https://www.facebook.com/letsHackCU/" class="fa fa-facebook-square"></a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a target="_blank" href="https://twitter.com/HackCU" class="fa fa-twitter-square"></a>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--<a id="mlh-trust-badge"-->
+           <!--style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000"-->
+           <!--href="https://mlh.io/seasons/s2016/events?utm_source=s2016&utm_medium=TrustBadge&utm_campaign=s2016"-->
+           <!--target="_blank"><img src="img/logos/mlh-banner.png"-->
+                                <!--alt="MLH Official - Spring 2016" style="width:100%;"></a>-->
+    <!--</div>-->
+<!--</nav>-->
+
+
+<!--&lt;!&ndash; Intro &ndash;&gt;-->
+<!--<section class="intro intro-body container stars">-->
+    <!--<div class="col-md-8 col-lg-offset-2 ">-->
+        <!--<center><img src="img/Logo_Header.png" alt="HackCU logo"></center>-->
+        <!--<br>-->
+
+
+
+
+        <!--<h2>April 1<sup>st</sup> - April 3<sup>rd</sup> 2016</h2>-->
+        <!--<a href="apply.html" class="btn btn-default btn-lg">Apply</a>-->
+    <!--</div>-->
+<!--</section>-->
 
 
 <!-- About -->
-<section id="about" class="container content-section stars">
-    <div class="col-md-8 col-lg-offset-2">
-        <h2>Welcome to HackCU!</h2>
-        <p class="light">HackCU hosts the largest annual 36 hour hackathon in the
-            Rocky Mountain region at the University of Colorado Boulder.
-            This year, we are bringing together over 250 students to give
-            you an opportunity to express your creativity, ingenuity, and
-            determination to build something amazing.
-        </p>
+<!-- About Section -->
+<section id="about" class="stars">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center about">
+
+                <h3 class="col-md-8 col-lg-offset-2 col-sm-12 section-subheading about">
+                    HackCU hosts the largest annual 36-hour hackathon in the Rocky Mountain
+                    region at the University of Colorado, Boulder. This year, we are bringing
+                    together over 250 students from all over the country, and are encouraging
+                    people of different experience levels, majors, and backgrounds to join.
+                    HackCU is giving you an opportunity to express your creativity, ingenuity
+                    and determination to create something amazing.</h3>
+            </div>
+
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Who can apply?</h3>
+                <p>Any current college students who is 18+ on April 1st, 2016.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Can I start before the event?</h3>
+                <p>You can think of ideas for your project, but you need to start basically from scratch when you
+                    arrive.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Do you offer travel reimbursement?</h3>
+                <p>We will not be able to offer travel reimbursement this year, however we planning on having it for the
+                    future.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>What should I bring?</h3>
+                <p>Laptop, chargers, change of clothes, toiletries, pillow.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>Will there be food?</h3>
+                <p>Yes, lots! We will provide 3 meals a day as well as snacks, drinks, and caffeine.</p>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <h3>What is a hackathon?</h3>
+                <p>A hackathon is an event where motivated people come together and use
+                    technology and creativity to build something amazing. Any designers, writers,
+                    computer scientists or anyone interested in hackathons are welcome.</p>
+            </div>
+
+        </div>
     </div>
 </section>
 
-<div class="stars flatiron" style="padding-bottom: 0px;">
-    <img src="img/flatironsTake2.png" alt="flatirons">
+
+<div class="flatiron stars img-responsive">
+    <img src="img/flatironsTake2.png" alt="flatirons"/>
 </div>
 
 
-<!-- Schedule -->
-<section id="schedule" class="container schedule-section">
-    <h2>Schedule</h2>
-    <div class="col-md-4">
-        <h3>Friday April 1<sup>st</sup></h3>
-        <table class="table">
-            <tbody>
-            <tr>
-                <td>5:00pm</td>
-                <td>Arrival and check-in</td>
-            </tr>
-            <tr>
-                <td>6:00pm</td>
-                <td>Opening ceremonies</td>
-            </tr>
+<section id="schedule">
+    <div class="container">
+        <div class="row">
+            <h2 class="btn-block section-heading text-center">Schedule</h2>
+            <div class="col-md-4">
+                <h3>Friday April 1<sup>st</sup></h3>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>5:00pm</td>
+                        <td>Arrival and check-in</td>
+                    </tr>
+                    <tr>
+                        <td>6:00pm</td>
+                        <td>Opening ceremonies</td>
+                    </tr>
+                    <tr>
+                        <td>7:00pm</td>
+                        <td>Dinner</td>
+                    </tr>
+                    <tr>
+                        <td>7:30pm</td>
+                        <td>Hardware Check-out</td>
+                    </tr>
+                    <tr>
+                        <td>9:30pm</td>
+                        <td>Hacking begins</td>
+                    </tr>
+                    <tr>
+                        <td>10:00pm</td>
+                        <td>Snack Time</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
 
-            <tr>
-                <td>7:00pm</td>
-                <td>Dinner</td>
-            </tr>
-            <tr>
-                <td>8:00pm</td>
-                <td>Hardware Check-out</td>
-            </tr>
-            <tr>
-                <td>9:30pm</td>
-                <td>Hacking begins</td>
-            </tr>
-            </tbody>
-        </table>
+            <div class="col-md-4">
+                <h3>Saturday April 2<sup>nd</sup></h3>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>Midnight</td>
+                        <td>Dessert</td>
+                    </tr>
+                    <tr>
+                        <td>8:00am</td>
+                        <td>Breakfast</td>
+                    </tr>
+                    <tr>
+                        <td>9:00am</td>
+                        <td>Women's Coffee Hour</td>
+                    </tr>
+                    <tr>
+                        <td>12:00pm</td>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr>
+                        <td>6:30pm</td>
+                        <td>Dinner</td>
+                    </tr>
+                    <tr>
+                        <td>9:00pm</td>
+                        <td>Snack Time</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-4">
+                <h3>Sunday April 3<sup>rd</sup></h3>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>Midnight</td>
+                        <td>Dessert</td>
+                    </tr>
+                    <tr>
+                        <td>2:00am</td>
+                        <td>Snack Time</td>
+                    </tr>
+                    <tr>
+                        <td>7:00am</td>
+                        <td>Breakfast</td>
+                    </tr>
+                    <tr>
+                        <td>9:30am</td>
+                        <td>Hacking ends</td>
+                    </tr>
+                    <tr>
+                        <td>10:00am</td>
+                        <td>Expo Starts</td>
+                    </tr>
+                    <tr>
+                        <td>12:00pm</td>
+                        <td>Closing Ceremonies</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
     </div>
 
-    <div class="col-md-4">
-        <h3>Saturday April 2<sup>nd</sup></h3>
-        <table class="table">
-            <tbody>
-            <tr>
-                <td>1:00am</td>
-                <td>Dessert</td>
-            </tr>
-            <tr>
-                <td>8:00am</td>
-                <td>Breakfast</td>
-            </tr>
-            <tr>
-                <td>10:00am</td>
-                <td>Women's Coffee Hour</td>
-            </tr>
-            <tr>
-                <td>12:00pm</td>
-                <td>Lunch</td>
-            </tr>
-            <tr>
-                <td>6:30pm</td>
-                <td>Dinner</td>
-            </tr>
-            <tr>
-                <td>12:00am</td>
-                <td>Dessert</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="col-md-4">
-        <h3>Sunday April 3<sup>rd</sup></h3>
-        <table class="table">
-            <tbody>
-            <tr>
-                <td>7:00am</td>
-                <td>Breakfast</td>
-            </tr>
-            <tr>
-                <td>9:30am</td>
-                <td>Hacking ends</td>
-            </tr>
-            <tr>
-                <td>10:00am</td>
-                <td>Expo Starts</td>
-            </tr>
-            <tr>
-                <td>12:00pm</td>
-                <td>Closing Ceremonies</td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <img src="img/city.png" alt="city">
 </section>
 
 
-<!-- SPONSORS AND PARTNERS -->
-<section id="sponsors">
-<div class="container sponsor-section text-center">
-
-        <div class="container">
-            <div class="sponsor row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Sponsors</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
+<!-- Sponsors and Partners -->
+<section class="clients" id="clients">
+    <div class="container">
+        <div class="sponsor row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Sponsors</h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
+        </div>
 
 
-            <div class="row text-center">
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/webroot.png" class="img-responsive img-centered" alt="webroot" />
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/twitter.png" style="width: 75%;" class="img-responsive img-centered"
-                             alt="twitter" />
-                    </a>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/keysight.png" class="img-responsive img-centered" alt="Keysight technologies">
-                    </a>
-                </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/twitter.png" style="width: 75%;" class="img-responsive img-centered"
+                         alt="twitter">
+                </a>
             </div>
-
-
-            <div class="row text-center">
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/workday.png" class="img-responsive img-centered" alt="Workday">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/zayo.png" class="img-responsive img-centered" alt="Zayo">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/workiva.png" class="img-responsive img-centered" alt="Workiva">
-                    </a>
-                </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/webroot.png" class="img-responsive img-centered" alt="webroot">
+                </a>
             </div>
-
-
-
-
-
-            <!--Partners-->
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading sponsor">Our Partners</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/keysight.png" class="img-responsive img-centered" alt="Keysight technologies">
+                </a>
             </div>
-
-            <div class="row partner text-center">
-                <!--MLH-->
-                <div class="col-md-3 col-sm-3">
-                    <a href="#">
-                        <img src="img/logos/mlh-logo.png" class="img-responsive img-centered" alt="mlh">
-                    </a>
-                </div>
-                <!--Boomtown-->
-                <div class="col-md-3 col-sm-3">
-                    <a href="#">
-                        <img src="img/logos/boomtown.png" class="img-responsive img-centered" alt="boomtown">
-                    </a>
-                </div>
-                <!--Sticker Giant-->
-                <div class="col-md-3 col-sm-3">
-                    <a href="#">
-                        <img src="img/logos/stickergiant.png" style="width: 75%;" class="img-responsive img-centered"
-                             alt="stickergiant">
-                    </a>
-                </div>
-                <!--ATLAS-->
-                <div class="col-md-3 col-sm-3">
-                    <a href="#">
-                        <img src="img/logos/atlas.png" style="width: 75%;" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-
-
         </div>
 
 
-        <div class="row interested">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p class="large">
-                    Interested in being a sponsor or partner? <a href="MAILTO:jessica.albarian@colorado.edu">Contact us</a>
-                    for more details!</p>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/workday.png" class="img-responsive img-centered" alt="Workday">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/zayo.png" class="img-responsive img-centered" alt="Zayo">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#">
+                    <img src="img/logos/workiva.png" class="img-responsive img-centered" alt="Workiva">
+                </a>
             </div>
         </div>
-    </section>
 
 
 
 
 
+        <!--Partners-->
 
-    <!--Judges-->
-    <div id="judges" class="container judges-section text-center">
-        <div>
-            <div>
-                <h2>Judges</h2>
-                <div class="container">
-                    <img class="img-circle img-responsive" src="img/judges/fletcher.jpg" alt="fletcher richman"
-                         style="margin-bottom:5%"/>
-                    <p style="padding-top:2%">Fletcher works for Galvanize Ventures, an early stage technology focused
-                        venture fund, where he helps source and support high growth startups. Fletcher graduated from CU
-                        with a degree in Electrical &amp; Computer Engineering in 2014. While in school, he cofounded
-                        Spark Boulder and ran it as managing director while working as a Growth Engineer for PivotDesk,
-                        a Techstars company. Fletcher loves skiing and prides himself on being an early adopter. </p>
-                </div>
-
-                <div class="container">
-                    <img class="img-circle img-responsive" src="img/judges/mark_gelband.jpg" alt="Mark Gelband"
-                         style=""/>
-                    <p>Mark spent a decade behind bars back in the day (operating some of South Beach's hottest
-                        nightclubs and restaurants) and traveling the world. He lived and worked on a cattle ranch in
-                        Florissant, CO before moving to Boulder and earning his MFA in Writing &amp; Poetics at Naropa.
-                        He's published his writing, taught college English, and has directed employee communications for
-                        two of our states largest employers. He is finishing Boulder's first net-zero shipping container
-                        home just up the road. He is an active angel investor who spends as little time with technology
-                        as possible and is currently helping Ello transform the social media landscape by empowering
-                        creators, embracing tolerance, diversity, transparency and ethical technologies, and engendering
-                        a revenue model that doesn't relay on selling user data to serve ads.</p>
-                </div>
-
-                <div class="container">
-                    <img class="img-circle img-responsive" src="img/judges/greg_greenstreet.jpg" alt="Greg Greenstreet"
-                         style=""/>
-                    <p style="padding-top:4%">Greg is a 25+ year veteran of software engineering and holds both a B.S.
-                        and M.S. in Computer Science &amp; Engineering with thesis work in parallel processing. In the
-                        last ten years, Greg has built and directed engineering teams in Boulder's startup community and
-                        helped found and serve as CTO at Collective Intellect, which was recently purchased by Oracle.
-                        He then moved to the VP of Engineering role at <a href="https://www.gnip.com" target="_blank">Gnip</a>.
-                        Greg is now the Director of Engineering for the Data Products organization within Twitter.</p>
-                </div>
-
-                <div class="container">
-                    <img class="img-circle img-responsive" src="img/judges/becky.jpg" alt="Becky"/>
-                    <p style="">Becky is the Assistant Director of the Idea Forge and the Managing
-                        Director of Catalyze CU, the university startup accelerator. Her background is in structural
-                        engineering where she spent most of her time hanging from buildings and climbing on bridges.
-                        After transitioning into education, she gained an interest in human-centered design and hands-on
-                        education. Her goal is to help engineering students realize their potential as leaders and
-                        change-makers.</p>
-                </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading sponsor">Our Partners</h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
         </div>
+
+        <div class="row partner">
+            <!--MLH-->
+            <div class="col-md-3 col-sm-3">
+                <a href="#">
+                    <img src="img/logos/mlh-logo.png" class="img-responsive img-centered" alt="mlh">
+                </a>
+            </div>
+            <!--Boomtown-->
+            <div class="col-md-3 col-sm-3">
+                <a href="#">
+                    <img src="img/logos/boomtown.png" class="img-responsive img-centered" alt="boomtown">
+                </a>
+            </div>
+            <!--Sticker Giant-->
+            <div class="col-md-3 col-sm-3">
+                <a href="#">
+                    <img src="img/logos/stickergiant.png" style="width: 75%;" class="img-responsive img-centered"
+                         alt="stickergiant">
+                </a>
+            </div>
+            <!--ATLAS-->
+            <div class="col-md-3 col-sm-3">
+                <a href="#">
+                    <img src="img/logos/atlas.png" style="width: 75%;" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="city" style="padding-bottom: 0px;">
+        <img src="img/city.png" alt="city"/>
     </div>
 
 
-    <!-- FAQ -->
-    <section id="faq" class="container faq-section text-left">
-        <div class="col-md-8 col-lg-offset-2 light">
-            <h2>FAQs</h2><br>
-            <h3>What is a hackathon?</h3>
-            <p>A hackathon is an event where people come together and use technology and creativity to
-                create something amazing. Any designers, writers, computer scientists, business majors, or anyone
-                interested
-                in hackathons are welcome! </p><br><br>
-
-            <h3>What should I bring?</h3>
-            <ul style='font-size: 1.8em;'>
-                <li class="fa fa-check-square-o fa-2x"> Laptop</li>
-                <br>
-                <li class="fa fa-check-square-o fa-2x"> Chargers</li>
-                <br>
-                <li class="fa fa-check-square-o fa-2x"> A change of clothes</li>
-                <br>
-                <li class="fa fa-check-square-o fa-2x"> Toiletries</li>
-                <br>
-                <li class="fa fa-check-square-o fa-2x"> Pillow</li>
-                <br>
-            </ul>
-            <br><br>
-
-            <h3>Will there be food?</h3>
-            <p>Yes. Lots. We will be providing three meals a day as well as
-                delicious snacks, drinks, and caffeine.</p><br><br>
-
-            <h3>How much does it cost?</h3>
-            <p>Nothing! HackCU is completely free. Unfortunately we will not be able to offer any travel reimbursement
-                for HackCU 2016. <a href="mailto:alex.walling19@gmail.com">Contact us</a>
-                for more details.</p><br><br>
-
-            <h3>Who can apply?</h3>
-            <p>Any current college student who will be 18 years old or older when HackCU begins (April 1, 2016).</p><br><br>
+    <div class="row interested">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <p class="large">
+                Interested in being a sponsor or partner? <a href="MAILTO:jessica.albarian@colorado.edu">Contact us</a>
+                for more details!</p>
         </div>
-    </section>
+    </div>
+</section>
 
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="col-md-4 col-xs-6">
-                <a href="apply.html">Apply</a><br>
-                <a href="mailto:alex.walling19@gmail.com">Contact Us</a><br>
-                <a href="organizers.html">Meet the Team</a><br>
-                <p>Made by HackCU</p>
-            </div>
-            <div class="col-md-4 col-xs-6">
-                <center>
-                    <img src="img/smallWhiteLogo.png" class="logo" alt="logo">
-                </center>
-            </div>
-            <div class="col-md-4 col-xs-6 rightFloat">
-                <a target="_blank" href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf"> Code of Conduct</a><br>
-                <a target="_blank" href="http://hackcu.github.io/LocalHackDay2015/">Local Hack Day 2015</a><br>
-                <a href="https://github.com/Zandrr/HackCU">HackCU Spring 2015</a><br>
-                <a target="_blank" href="https://github.com/HackCU/HackCU2016">Source Code</a>
+<!-- Judges Section -->
+<section id="judges" class="stars judge">
+    <div class="container stars">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Judges</h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
         </div>
-    </footer>
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+        <div class="row team-member">
+            <div class="col-md-6">
+                <div>
+                    <img src="img/judges/fletcher.jpg" class="img-responsive img-circle" alt="Fletcher"></a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Fletcher</h4>
+                <p class="text-muted">Fletcher works for Galvanize Ventures, an early stage technology focused
+                    venture fund, where he helps source and support high growth startups. Fletcher graduated
+                    from CU with a degree in Electrical & Computer Engineering in 2014. While in school, he
+                    co-founded Spark Boulder and ran it as managing director while working as a Growth Engineer
+                    for PivotDesk, a Techstars company. Fletcher loves skiing and prides himself on being an
+                    early adopter.</p>
+            </div>
+        </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <div class="row team-member">
+            <div class="col-md-6">
+                <div>
+                    <img src="img/judges/mark_gelband.jpg" class="img-responsive img-circle" alt="Mark"></a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Mark</h4>
+                <p class="text-muted">Mark spent a decade behind bars back in the day (operating some of
+                    South Beach's hottest nightclubs and restaurants) and traveling the world. He lived and
+                    worked on a cattle ranch in Florissant, CO before moving to Boulder and earning his MFA
+                    in Writing & Poetics at Naropa. He's published his writing, taught college English, and
+                    has directed employee communications for two of our states largest employers. He is finishing
+                    Boulder's first net-zero shipping container home just up the road. He is an active angel
+                    investor who spends as little time with technology as possible and is currently helping Ello
+                    transform the social media landscape by empowering creators, embracing tolerance, diversity,
+                    transparency and ethical technologies, and engendering a revenue model that doesn't relay on
+                    selling user data to serve ads.</p>
+            </div>
+        </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+        <div class="row team-member">
+            <div class="col-md-6">
+                <div>
+                    <img src="img/judges/greg_greenstreet.jpg" class="img-responsive img-circle" alt="Greg"></a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Greg</h4>
+                <p class="text-muted">Greg is a 25+ year veteran of software engineering and holds both
+                    a B.S. and M.S. in Computer Science & Engineering with thesis work in parallel
+                    processing. In the last ten years, Greg has built and directed engineering teams
+                    in Boulder's startup community and helped found and serve as CTO at Collective Intellect,
+                    which was recently purchased by Oracle. He then moved to the VP of Engineering role at
+                    Gnip. Greg is now the Director of Engineering for the Data Products organization within
+                    Twitter.</p>
+            </div>
+        </div>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
 
-    <!-- Stars Animation -->
-    <script src="js/stars.js"></script>
+        <div class="row team-member">
+            <div class="col-md-6">
+                <div>
+                    <img src="img/judges/becky.jpg" class="img-responsive img-circle" alt="Becky"></a>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h4>Becky</h4>
+                <p class="text-muted">Becky is the Assistant Director of the Idea Forge and the Managing Director of Catalyze CU, the
+                    university startup accelerator. Her background is in structural engineering where she spent most of
+                    her time hanging from buildings and climbing on bridges. After transitioning into education, she
+                    gained an interest in human-centered design and hands-on education. Her goal is to help engineering
+                    students realize their potential as leaders and change-makers.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Community Section -->
+<section id="community">
+    <div class="container stars">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Community</h2>
+            </div>
+        </div>
+        <div class="row team-member">
+            <div class="col-sm-6">
+                <div>
+                    <img src="img/startup.png" class="img-responsive img-circle" alt="Fletcher"></a>
+                    <h3 class="section-subheading text-muted"><a href="http://startups2students.hackcu.org/"
+                                                                 target="_blank">Startups2Students</a></h3>
+                    <p>Thursday, March 10th, 2016<br>
+                        Idea Forge Commons, Boulder CO<br>
+                        "Bridging the gap between student talent and startups."
+                    </p>
+                    <div>
+                        <button type="button" class="center-block btn btn-xl">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <img src="img/miniwrite.jpg" class="img-responsive img-circle" alt="Fletcher"></a>
+                    <h3 class="section-subheading text-muted"><a href="http://www.hackcu.org/write/html"
+                                                                 target="_blank">Writeathon</a></h3>
+                    <p>Saturday, April 2nd, 2016<br>
+                        Idea Forge Commons, Boulder CO<br>
+                        HackCU's 1st 12 hour writeathon
+                    </p>
+                    <div>
+                        <button type="button" class="center-block btn btn-xl">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Map Section -->
+<section id="map" class="stars google-maps">
+    <div class="container">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <div style='overflow:hidden;height:440px;width:100%;'>
+            <div id='gmap_canvas' style='height:440px;width:100%;'></div>
+            <div>
+                <small><a href="http://embedgooglemaps.com"> embed google map </a></small>
+            </div>
+            <div>
+                <small><a href="http://freedirectorysubmissionsites.com">directory submission sites</a></small>
+            </div>
+
+        </div>
+        <script type='text/javascript'>function init_map() {
+            var myOptions = {
+                zoom: 16,
+                center: new google.maps.LatLng(40.002007, -105.26339300000001),
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false
+            };
+            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+            marker = new google.maps.Marker({
+                map: map,
+                position: new google.maps.LatLng(40.002007, -105.26339300000001)
+            });
+//            infowindow = new google.maps.InfoWindow({content: '<strong>Idea Forge</strong><br>Boulder CO<br>'});
+//            google.maps.event.addListener(marker, 'click', function () {
+//                infowindow.open(map, marker);
+//            });
+            infowindow.open(map, marker);
+        }
+        google.maps.event.addDomListener(window, 'load', init_map);
+        google.maps.event.addDomListener(window, "resize", function () {
+            var center = map.getCenter();
+            google.maps.event.trigger(map, "resize");
+            map.setCenter(center);
+        });
+        </script>
+
+    </div>
+</section>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="list-unstyled quicklinks">
+                    <li><span class="copyright text-muted">Made by HackCU</span><br>
+                    </li>
+                    <li>
+                        <a href="apply.html">Apply</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li><a href="https://www.facebook.com/letsHackCU/" target="_blank"><i
+                            class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/HackCU" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/hackcu/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled quicklinks">
+                    <li><a target="_blank" href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of
+                        Conduct</a>
+                    </li>
+                    <li>
+                        Meet the<a href="organizers.html"> team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<!--<script src="js/contact_me.js"></script>-->
+
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
+<script src="js/stars.js"></script>
 
 </body>
+
 </html>
