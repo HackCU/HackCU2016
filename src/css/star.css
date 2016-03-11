@@ -1,0 +1,72 @@
+.stars {
+    position: relative;
+
+}
+
+.star {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 24px;
+    height: 24px;
+    background: #F6F6F6;
+    overflow: hidden;
+    z-index: -20;
+    animation: glitter 4.5s linear 0s infinite normal;
+    -webkit-animation: glitter 4.5s linear 0s infinite normal;
+    -moz-animation: glitter 4.5s linear 0s infinite normal;
+    -ms-animation: glitter 4.5s linear 0s infinite normal;
+    -o-animation: glitter 4.5s linear 0s infinite normal;
+}
+
+.star-top,.star-bottom{
+    position: relative;
+    display: block;
+}
+
+.star-top:before ,
+.star-top:after ,
+.star-bottom:before ,
+.star-bottom:after{
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: #222222;
+    border-radius: 20%;
+    position: absolute;
+}
+
+/* Positioning curves */
+.star-top:before {
+    top: -12px;
+    left: -12px;
+}
+.star-top:after {
+    bottom: -12px;
+    left: 12px;
+}
+.star-bottom:before {
+    top: 12px;
+    left: -12px;
+}
+.star-bottom:after {
+    top: 12px;
+    left: 12px;
+}
+
+/*css3 keyframes for glittering effect*/
+@-webkit-keyframes glitter {
+    0%   { -webkit-transform: scale(1.0); opacity: 1; }
+    25%  { -webkit-transform: scale(0.5); opacity: 0; }
+    50%  { -webkit-transform: scale(1.0); opacity: 1; }
+    75%  { -webkit-transform: scale(0.5); opacity: 0; }
+    100% { -webkit-transform: scale(1.0); opacity: 1; }
+}
+@-moz-keyframes glitter {
+    0%   { -moz-transform: scale(1.0); opacity: 1; }
+    25%  { -moz-transform: scale(0.5); opacity: 0; }
+    50%  { -moz-transform: scale(1.0); opacity: 1; }
+    75%  { -moz-transform: scale(0.5); opacity: 0; }
+    100% { -moz-transform: scale(1.0); opacity: 1; }
+}
