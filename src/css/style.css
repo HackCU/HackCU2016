@@ -9,7 +9,7 @@ body {
     height: 100%;
     font-family: 'Josefin Sans', Lato, Arial, "Helvetica Neue",Helvetica, sans-serif;
     color: #000;
-    background-color: #212121;
+    background-color: #161616;
     margin: 0;
 }
 
@@ -160,7 +160,7 @@ a:focus {
     text-align: center;
     color: #fff;
     z-index: 10;
-    background-color: #212121;
+    background-color: #161616;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -257,7 +257,7 @@ a:focus {
     padding-bottom: 100px;
     z-index: 4;
     text-align: center;
-    background-color: #212121;
+    background-color: #161616;
     color: #fff;
 }
 
@@ -361,7 +361,7 @@ img {
     color: #fff;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #212121;
+    background-color: #161616;
 }
 
 .judges-section h2 {
@@ -619,7 +619,7 @@ Star animation: http://jsfiddle.net/H29j7/6/
 	content: "";
 	width: 24px;
 	height: 24px;
-	background: #212121;
+	background: #161616;
 	border-radius: 20%;
 	position: absolute;
 }

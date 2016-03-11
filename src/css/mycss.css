@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #222222;
+    background-color: #161616;
     color: #fff;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-darkest-gray {
-    background-color: #222
+    background-color: #161616
 }
 
 .btn-primary {
@@ -599,7 +599,7 @@ aside.clients img {
 }
 
 section#map {
-    background-color: #222;
+    background-color: #161616;
 }
 
 section#contact .text-danger {
@@ -732,7 +732,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
     height: 75px;
     width: 1px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #161616;
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -742,7 +742,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 .portfolio-modal .close-modal .lr .rl {
     height: 75px;
     width: 1px;
-    background-color: #222;
+    background-color: #161616;
     transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -821,7 +821,7 @@ body {
 
 #map .container {
     width: 100%;
-    background-color: #222;
+    background-color: #161616;
 }
 
 .partner img{
@@ -829,7 +829,7 @@ body {
 }
 
 .interested{
-    background-color: #222222;
+    background-color: #161616;
 }
 
 .yellow {
@@ -873,7 +873,7 @@ body {
 }
 
 .judge{
-    background-color: #222222;
+    background-color: #161616;
     padding-top: 300px;
 }
 
@@ -882,7 +882,7 @@ body {
 }
 
 .community {
-    background-color: #222222;
+    background-color: #161616;
     font-weight: 200;
 }
 .community p {
