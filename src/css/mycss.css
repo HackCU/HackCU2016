@@ -287,6 +287,7 @@ section h3.section-subheading {
     text-transform: none;
     font-weight: 200;
     color: #fff;
+    line-height: 1.3em;
     /*margin-bottom: 75px*/
 
 }
@@ -886,7 +887,7 @@ body {
 }
 
 .judge p {
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 .community {
