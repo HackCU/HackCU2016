@@ -936,3 +936,10 @@ body {
     margin:0;
 }
 
+.hack h3{
+    color: #fff;
+}
+
+table, th, td {
+    border-bottom: 2px solid grey;
+}

@@ -1,4 +1,4 @@
-var limit = 30, loop = {
+var limit = 20, loop = {
     start: function (a) {
         for (var b = 0; limit > b; b++) {
             var c = this.newStar();
