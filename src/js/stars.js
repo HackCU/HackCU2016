@@ -12,4 +12,4 @@ var limit = 20, loop = {
     }
 };
 stars = document.getElementsByClassName("stars");
-for (var i = 0; 100 > i; i++)loop.start(stars[i]);
+for (var i = 0;  i < 100; i++)loop.start(stars[i]);
