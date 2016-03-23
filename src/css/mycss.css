@@ -787,13 +787,19 @@ body {
 
 .team-member img {
     object-fit: cover;
-    width: 250px;
-    height: 250px;
+    width: 175px;
+    height: 175px;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 }
 
-.team-member a:hover img{
-    /*-webkit-filter: grayscale(100%); !* Chrome, Safari, Opera *!*/
-    /*filter: grayscale(100%);*/
+.team-member img:hover {
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+}
+
+#judges p{
+    font-size: 1em;
 }
 
 .team-member p{
