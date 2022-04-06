@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/HackCU/HackCU2016.git"
   },
-  "author": "Dawson Botsford <dawsonbotsford@gmail.com> (http://dawsonbotsford.com)",
+  "author": "@dawsbot",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/HackCU/HackCU2016/issues"
